@@ -1,3 +1,5 @@
+"use strict";
+
 Array.prototype.bubbleSort = function () {
   let sorted = false;
 
