@@ -18,3 +18,12 @@ Array.prototype.myMap = function(func){
   return mapArr;
 }
 console.log(NUMS.myMap( num => num * num ));
+
+Array.prototype.myInject = function(func){
+  let result = this[0];
+
+  this.slice(1).myEach(element => result = func(result, element));
+
+  return result;
+}
+console.log(NUMS.myInject((total, item) => total+ item));
