@@ -1,6 +1,7 @@
+"use strict";
 
 Array.prototype.uniq = function() {
-  arr = this.filter( function( item, index, inputArray ) {
+  const arr = this.filter( function( item, index, inputArray ) {
              return inputArray.indexOf(item) == index;
   });
   return arr;
