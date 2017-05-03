@@ -1,4 +1,4 @@
-const Game = require('./game.js');
+let Game = require('./game.js');
 const readline = require('readline');
 const reader = readline.createInterface({
   input: process.stdin,
@@ -6,13 +6,14 @@ const reader = readline.createInterface({
 });
 
 let g = new Game();
+g.run(reader, completion);
 
-function completion(){
-  reader.question("Play again? y or n: ", restartGame=>{
-    if (restartGame === 'y'){
+function completion() {
+  reader.question("Play again? y or n: ", restartGame => {
+    if (restartGame === "y") {
       g = new Game();
-      g.run(reader, completion)
-    }else{
+      g.run(reader, completion);
+    } else {
       reader.close();
     }
   });

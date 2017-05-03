@@ -104,3 +104,7 @@ class Board{
   }
 
 }
+
+Board.marks = ['x', 'o'];
+
+module.exports = Board;
