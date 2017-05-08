@@ -6,7 +6,7 @@ function randomColor(){
   var hexDigits = "0123456789ABCDEF";
 
   var color = "#";
-  far (var i = 0; i < 3; i++){
+  for (var i = 0; i < 3; i++) {
     color += hexDigits[Math.floor((Math.random() * 16))];
   }
 
