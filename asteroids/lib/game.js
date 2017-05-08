@@ -58,6 +58,7 @@ Game.prototype.checkCollisions = function(){
       const obj2 = allObjects[j];
 
       if(obj1.isCollidedWith(obj2)){
+        const collision = obj1.collideWith(obj2);
         if (collision) return;
       }
     }
@@ -108,7 +109,7 @@ Game.prototype.step = function(delta){
   this.checkCollisions();
 }
 
-Game.wrap = function(pos){
+Game.prototype.wrap = function(pos){
   return [
     Util.wrap(pos[0], Game.DIM_X), Util.wrap(pos[1], Game.DIM_Y)
   ];

@@ -8,6 +8,10 @@ const MovingObject = function (options){
   this.game = options.game;
 };
 
+MovingObject.prototype.collideWith = function(otherObject){
+  //default do nothing
+};
+
 MovingObject.prototype.draw = function(ctx){
   ctx.fillStyle = this.color;
 
@@ -16,6 +20,11 @@ MovingObject.prototype.draw = function(ctx){
     this.pos[0], this.pos[1], this.radius, 0, 2 * Math.PI, true
   );
   ctx.fill();
+};
+
+MovingObject.prototype.isCollidedWith = function(otherObject){
+  const centerDist = Util.dist(this.pos, otherObject.pos);
+  return centerDist < (this.radius + otherObject.radius);
 };
 
 MovingObject.prototype.isWrappable = true;
@@ -29,7 +38,7 @@ MovingObject.prototype.move = function (timeDelta) {
 
   this.pos = [this.pos[0] + offsetX, this.pos[1] + offsetY];
 
-  if(this.game.isOutofBounds(this.pos)){
+  if(this.game.isOutOfBounds(this.pos)){
     if(this.isWrappable){
       this.pos = this.game.wrap(this.pos);
     }else{

@@ -18,7 +18,7 @@ const Asteroid = function(options = {}){
   MovingObject.call(this, options);
 };
 
-Util.ineherits(Asteroid, MovingObject);
+Util.inherits(Asteroid, MovingObject);
 
 Asteroid.prototype.collideWith = function(otherObject){
   if(otherObject instanceof Ship){
