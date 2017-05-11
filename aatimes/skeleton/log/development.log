@@ -1,0 +1,45 @@
+Started GET "/" for ::1 at 2017-05-11 13:13:04 -0700
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /Users/ryanmora/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/activerecord-5.0.2/lib/active_record/railtie.rb:113)
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.2ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 498ms (Views: 496.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-3976aecf35be714538071726741e2049da672ef62165c6a531ba6db8d7908939.css?body=1" for ::1 at 2017-05-11 13:13:05 -0700
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2017-05-11 13:13:05 -0700
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2017-05-11 13:13:05 -0700
+Started GET "/assets/components/dropdown.self-815016af6fab1d5b72abd319213bf62f0c42bab2c585d2e059543ae704a0d74c.js?body=1" for ::1 at 2017-05-11 13:13:05 -0700
+Started GET "/assets/components/modal.self-52188644dbb47def5ee35ae02e69eb567ca9b664472357a8a5789dd39032a265.js?body=1" for ::1 at 2017-05-11 13:13:05 -0700
+Started GET "/assets/components/sidebar.self-2a1277f850a6fa21e1a974ef5152f177ac05516477d5081d593bb137b3d6808b.js?body=1" for ::1 at 2017-05-11 13:13:05 -0700
+Started GET "/assets/application.self-f571b9db02bf4ed04c38a6a29072ac382f7d4f47db1fab9817aeadb0d8665235.js?body=1" for ::1 at 2017-05-11 13:13:05 -0700
+Started GET "/assets/application.self-3976aecf35be714538071726741e2049da672ef62165c6a531ba6db8d7908939.css?body=1&livereload=1494534628800" for ::1 at 2017-05-11 13:30:28 -0700
+Started GET "/assets/application.self-3976aecf35be714538071726741e2049da672ef62165c6a531ba6db8d7908939.css?body=1&livereload=1494534628804" for ::1 at 2017-05-11 13:30:28 -0700
+Started GET "/assets/application.self-3976aecf35be714538071726741e2049da672ef62165c6a531ba6db8d7908939.css?body=1&livereload=1494534649696" for ::1 at 2017-05-11 13:30:49 -0700
+Started GET "/assets/application.self-3976aecf35be714538071726741e2049da672ef62165c6a531ba6db8d7908939.css?body=1&livereload=1494534649698" for ::1 at 2017-05-11 13:30:49 -0700
+Started GET "/assets/application.self-3976aecf35be714538071726741e2049da672ef62165c6a531ba6db8d7908939.css?body=1&livereload=1494534679033" for ::1 at 2017-05-11 13:31:19 -0700
+Started GET "/assets/application.self-3976aecf35be714538071726741e2049da672ef62165c6a531ba6db8d7908939.css?body=1&livereload=1494534679034" for ::1 at 2017-05-11 13:31:19 -0700
+Started GET "/assets/application.self-3976aecf35be714538071726741e2049da672ef62165c6a531ba6db8d7908939.css?body=1&livereload=1494534692703" for ::1 at 2017-05-11 13:31:32 -0700
+Started GET "/assets/application.self-3976aecf35be714538071726741e2049da672ef62165c6a531ba6db8d7908939.css?body=1&livereload=1494534692705" for ::1 at 2017-05-11 13:31:32 -0700
+Started GET "/assets/application.self-3976aecf35be714538071726741e2049da672ef62165c6a531ba6db8d7908939.css?body=1&livereload=1494534727876" for ::1 at 2017-05-11 13:32:07 -0700
+Started GET "/assets/application.self-3976aecf35be714538071726741e2049da672ef62165c6a531ba6db8d7908939.css?body=1&livereload=1494534727879" for ::1 at 2017-05-11 13:32:07 -0700
+Started GET "/assets/application.self-3976aecf35be714538071726741e2049da672ef62165c6a531ba6db8d7908939.css?body=1&livereload=1494534730669" for ::1 at 2017-05-11 13:32:10 -0700
+Started GET "/assets/application.self-3976aecf35be714538071726741e2049da672ef62165c6a531ba6db8d7908939.css?body=1&livereload=1494534730670" for ::1 at 2017-05-11 13:32:10 -0700
+Started GET "/" for ::1 at 2017-05-11 13:32:16 -0700
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.4ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 36ms (Views: 34.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-6321ddf0634fcf9a0052e326459dd1e93301c296d83af08a434c3f4c4674e873.css?body=1" for ::1 at 2017-05-11 13:32:16 -0700
