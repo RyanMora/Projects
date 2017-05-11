@@ -60,9 +60,10 @@
 }
 
 .masthead-links a,
-.masthead-links button, 
+.masthead-links button,
 .masthead-links time {
 	margin-right: 10px;
+	margin-left: 5px;
 }
 
 .masthead-links i {
@@ -71,4 +72,12 @@
 
 .masthead-links strong {
 	color: green;
+}
+
+.masthead-links li:last-child {
+	border: none;
+}
+
+.language-nav li:first-of-type a {
+	font-weight: bold;
 }

@@ -65,3 +65,1227 @@ Started GET "/assets/application.self-6321ddf0634fcf9a0052e326459dd1e93301c296d8
 Started GET "/assets/application.self-6321ddf0634fcf9a0052e326459dd1e93301c296d83af08a434c3f4c4674e873.css?body=1&livereload=1494534965908&livereload=1494534956618" for ::1 at 2017-05-11 13:36:05 -0700
 Started GET "/assets/application.self-6321ddf0634fcf9a0052e326459dd1e93301c296d83af08a434c3f4c4674e873.css?body=1&livereload=1494534968692&livereload=1494534956618" for ::1 at 2017-05-11 13:36:08 -0700
 Started GET "/assets/application.self-6321ddf0634fcf9a0052e326459dd1e93301c296d83af08a434c3f4c4674e873.css?body=1&livereload=1494534968693&livereload=1494534956618" for ::1 at 2017-05-11 13:36:08 -0700
+Started GET "/" for ::1 at 2017-05-11 13:39:30 -0700
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 30ms (Views: 28.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-084dec5257bab0ea8f3d042e66110e5cc242c3ad5c30dc71478d8c61f34ddd85.css?body=1" for ::1 at 2017-05-11 13:39:30 -0700
+Started GET "/" for ::1 at 2017-05-11 13:40:37 -0700
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.6ms)
+  Rendered shared/_masthead.html.erb (0.5ms)
+  Rendered shared/_sections_nav.html.erb (0.6ms)
+  Rendered shared/_search_modal.html.erb (0.5ms)
+  Rendered shared/_main_content.html.erb (0.4ms)
+  Rendered static_pages/index.html.erb within layouts/application (15.7ms)
+Completed 200 OK in 39ms (Views: 37.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-05-11 13:40:48 -0700
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.4ms)
+  Rendered shared/_masthead.html.erb (0.2ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 33ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-05-11 13:41:36 -0700
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.5ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.5ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 24ms (Views: 22.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-05-11 13:42:03 -0700
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.4ms)
+  Rendered static_pages/index.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 28ms (Views: 26.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-05-11 13:42:23 -0700
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.2ms)
+  Rendered shared/_sections_nav.html.erb (0.4ms)
+  Rendered shared/_search_modal.html.erb (0.5ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 26ms (Views: 24.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-05-11 13:44:03 -0700
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.2ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.5ms)
+  Rendered static_pages/index.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 27ms (Views: 25.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-05-11 13:45:11 -0700
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.2ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.5ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 28ms (Views: 26.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-05-11 13:45:30 -0700
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.4ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 28ms (Views: 25.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-05-11 13:47:17 -0700
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.4ms)
+  Rendered shared/_masthead.html.erb (0.2ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 26ms (Views: 24.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-05-11 13:47:26 -0700
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.4ms)
+  Rendered shared/_masthead.html.erb (0.7ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (10.9ms)
+Completed 200 OK in 31ms (Views: 29.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-05-11 13:47:29 -0700
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.2ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 26ms (Views: 24.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-05-11 13:47:53 -0700
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.2ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 29ms (Views: 27.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-05-11 13:47:58 -0700
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.2ms)
+  Rendered shared/_masthead.html.erb (0.2ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 28ms (Views: 25.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-084dec5257bab0ea8f3d042e66110e5cc242c3ad5c30dc71478d8c61f34ddd85.css?body=1&livereload=1494535794917" for ::1 at 2017-05-11 13:49:54 -0700
+Started GET "/assets/application.self-084dec5257bab0ea8f3d042e66110e5cc242c3ad5c30dc71478d8c61f34ddd85.css?body=1&livereload=1494535794919" for ::1 at 2017-05-11 13:49:54 -0700
+Started GET "/assets/application.self-084dec5257bab0ea8f3d042e66110e5cc242c3ad5c30dc71478d8c61f34ddd85.css?body=1&livereload=1494535802661" for ::1 at 2017-05-11 13:50:02 -0700
+Started GET "/assets/application.self-084dec5257bab0ea8f3d042e66110e5cc242c3ad5c30dc71478d8c61f34ddd85.css?body=1&livereload=1494535802662" for ::1 at 2017-05-11 13:50:02 -0700
+Started GET "/assets/application.self-084dec5257bab0ea8f3d042e66110e5cc242c3ad5c30dc71478d8c61f34ddd85.css?body=1&livereload=1494535812634" for ::1 at 2017-05-11 13:50:12 -0700
+Started GET "/assets/application.self-084dec5257bab0ea8f3d042e66110e5cc242c3ad5c30dc71478d8c61f34ddd85.css?body=1&livereload=1494535812635" for ::1 at 2017-05-11 13:50:12 -0700
+Started GET "/assets/application.self-084dec5257bab0ea8f3d042e66110e5cc242c3ad5c30dc71478d8c61f34ddd85.css?body=1&livereload=1494535824806" for ::1 at 2017-05-11 13:50:24 -0700
+Started GET "/assets/application.self-084dec5257bab0ea8f3d042e66110e5cc242c3ad5c30dc71478d8c61f34ddd85.css?body=1&livereload=1494535824807" for ::1 at 2017-05-11 13:50:24 -0700
+Started GET "/assets/application.self-084dec5257bab0ea8f3d042e66110e5cc242c3ad5c30dc71478d8c61f34ddd85.css?body=1&livereload=1494535828890" for ::1 at 2017-05-11 13:50:28 -0700
+Started GET "/assets/application.self-084dec5257bab0ea8f3d042e66110e5cc242c3ad5c30dc71478d8c61f34ddd85.css?body=1&livereload=1494535828892" for ::1 at 2017-05-11 13:50:28 -0700
+Started GET "/assets/application.self-084dec5257bab0ea8f3d042e66110e5cc242c3ad5c30dc71478d8c61f34ddd85.css?body=1&livereload=1494535830935" for ::1 at 2017-05-11 13:50:30 -0700
+Started GET "/assets/application.self-084dec5257bab0ea8f3d042e66110e5cc242c3ad5c30dc71478d8c61f34ddd85.css?body=1&livereload=1494535830936" for ::1 at 2017-05-11 13:50:30 -0700
+Started GET "/assets/application.self-084dec5257bab0ea8f3d042e66110e5cc242c3ad5c30dc71478d8c61f34ddd85.css?body=1&livereload=1494535838565" for ::1 at 2017-05-11 13:50:38 -0700
+Started GET "/assets/application.self-084dec5257bab0ea8f3d042e66110e5cc242c3ad5c30dc71478d8c61f34ddd85.css?body=1&livereload=1494535838566" for ::1 at 2017-05-11 13:50:38 -0700
+Started GET "/assets/application.self-084dec5257bab0ea8f3d042e66110e5cc242c3ad5c30dc71478d8c61f34ddd85.css?body=1&livereload=1494535844214" for ::1 at 2017-05-11 13:50:44 -0700
+Started GET "/assets/application.self-084dec5257bab0ea8f3d042e66110e5cc242c3ad5c30dc71478d8c61f34ddd85.css?body=1&livereload=1494535844215" for ::1 at 2017-05-11 13:50:44 -0700
+Started GET "/assets/application.self-084dec5257bab0ea8f3d042e66110e5cc242c3ad5c30dc71478d8c61f34ddd85.css?body=1&livereload=1494535869152" for ::1 at 2017-05-11 13:51:09 -0700
+Started GET "/assets/application.self-084dec5257bab0ea8f3d042e66110e5cc242c3ad5c30dc71478d8c61f34ddd85.css?body=1&livereload=1494535869153" for ::1 at 2017-05-11 13:51:09 -0700
+Started GET "/assets/application.self-084dec5257bab0ea8f3d042e66110e5cc242c3ad5c30dc71478d8c61f34ddd85.css?body=1&livereload=1494535882621" for ::1 at 2017-05-11 13:51:22 -0700
+Started GET "/assets/application.self-084dec5257bab0ea8f3d042e66110e5cc242c3ad5c30dc71478d8c61f34ddd85.css?body=1&livereload=1494535882621&livereload=1494535882621" for ::1 at 2017-05-11 13:51:22 -0700
+Started GET "/assets/application.self-084dec5257bab0ea8f3d042e66110e5cc242c3ad5c30dc71478d8c61f34ddd85.css?body=1&livereload=1494535887172&livereload=1494535882621" for ::1 at 2017-05-11 13:51:27 -0700
+Started GET "/assets/application.self-084dec5257bab0ea8f3d042e66110e5cc242c3ad5c30dc71478d8c61f34ddd85.css?body=1&livereload=1494535887172&livereload=1494535882621&livereload=1494535887172" for ::1 at 2017-05-11 13:51:27 -0700
+Started GET "/assets/application.self-084dec5257bab0ea8f3d042e66110e5cc242c3ad5c30dc71478d8c61f34ddd85.css?body=1&livereload=1494535889401&livereload=1494535882621&livereload=1494535887172" for ::1 at 2017-05-11 13:51:29 -0700
+Started GET "/assets/application.self-084dec5257bab0ea8f3d042e66110e5cc242c3ad5c30dc71478d8c61f34ddd85.css?body=1&livereload=1494535889402&livereload=1494535882621&livereload=1494535887172" for ::1 at 2017-05-11 13:51:29 -0700
+Started GET "/assets/application.self-084dec5257bab0ea8f3d042e66110e5cc242c3ad5c30dc71478d8c61f34ddd85.css?body=1&livereload=1494535892005&livereload=1494535882621&livereload=1494535887172" for ::1 at 2017-05-11 13:51:32 -0700
+Started GET "/assets/application.self-084dec5257bab0ea8f3d042e66110e5cc242c3ad5c30dc71478d8c61f34ddd85.css?body=1&livereload=1494535892006&livereload=1494535882621&livereload=1494535887172" for ::1 at 2017-05-11 13:51:32 -0700
+Started GET "/assets/application.self-084dec5257bab0ea8f3d042e66110e5cc242c3ad5c30dc71478d8c61f34ddd85.css?body=1&livereload=1494535896367&livereload=1494535882621&livereload=1494535887172" for ::1 at 2017-05-11 13:51:36 -0700
+Started GET "/assets/application.self-084dec5257bab0ea8f3d042e66110e5cc242c3ad5c30dc71478d8c61f34ddd85.css?body=1&livereload=1494535896369&livereload=1494535882621&livereload=1494535887172" for ::1 at 2017-05-11 13:51:36 -0700
+Started GET "/assets/application.self-084dec5257bab0ea8f3d042e66110e5cc242c3ad5c30dc71478d8c61f34ddd85.css?body=1&livereload=1494535897760&livereload=1494535882621&livereload=1494535887172" for ::1 at 2017-05-11 13:51:37 -0700
+Started GET "/assets/application.self-084dec5257bab0ea8f3d042e66110e5cc242c3ad5c30dc71478d8c61f34ddd85.css?body=1&livereload=1494535897761&livereload=1494535882621&livereload=1494535887172" for ::1 at 2017-05-11 13:51:37 -0700
+Started GET "/assets/application.self-084dec5257bab0ea8f3d042e66110e5cc242c3ad5c30dc71478d8c61f34ddd85.css?body=1&livereload=1494535901847&livereload=1494535882621&livereload=1494535887172" for ::1 at 2017-05-11 13:51:41 -0700
+Started GET "/assets/application.self-084dec5257bab0ea8f3d042e66110e5cc242c3ad5c30dc71478d8c61f34ddd85.css?body=1&livereload=1494535901848&livereload=1494535882621&livereload=1494535887172" for ::1 at 2017-05-11 13:51:41 -0700
+Started GET "/assets/application.self-084dec5257bab0ea8f3d042e66110e5cc242c3ad5c30dc71478d8c61f34ddd85.css?body=1&livereload=1494535903154&livereload=1494535882621&livereload=1494535887172" for ::1 at 2017-05-11 13:51:43 -0700
+Started GET "/assets/application.self-084dec5257bab0ea8f3d042e66110e5cc242c3ad5c30dc71478d8c61f34ddd85.css?body=1&livereload=1494535903155&livereload=1494535882621&livereload=1494535887172" for ::1 at 2017-05-11 13:51:43 -0700
+Started GET "/assets/application.self-084dec5257bab0ea8f3d042e66110e5cc242c3ad5c30dc71478d8c61f34ddd85.css?body=1&livereload=1494535919710&livereload=1494535882621&livereload=1494535887172" for ::1 at 2017-05-11 13:51:59 -0700
+Started GET "/assets/application.self-084dec5257bab0ea8f3d042e66110e5cc242c3ad5c30dc71478d8c61f34ddd85.css?body=1&livereload=1494535919711&livereload=1494535882621&livereload=1494535887172" for ::1 at 2017-05-11 13:51:59 -0700
+Started GET "/assets/application.self-084dec5257bab0ea8f3d042e66110e5cc242c3ad5c30dc71478d8c61f34ddd85.css?body=1&livereload=1494535920928&livereload=1494535882621&livereload=1494535887172" for ::1 at 2017-05-11 13:52:00 -0700
+Started GET "/assets/application.self-084dec5257bab0ea8f3d042e66110e5cc242c3ad5c30dc71478d8c61f34ddd85.css?body=1&livereload=1494535920929&livereload=1494535882621&livereload=1494535887172" for ::1 at 2017-05-11 13:52:00 -0700
+Started GET "/assets/application.self-084dec5257bab0ea8f3d042e66110e5cc242c3ad5c30dc71478d8c61f34ddd85.css?body=1&livereload=1494535924813&livereload=1494535882621&livereload=1494535887172" for ::1 at 2017-05-11 13:52:04 -0700
+Started GET "/assets/application.self-084dec5257bab0ea8f3d042e66110e5cc242c3ad5c30dc71478d8c61f34ddd85.css?body=1&livereload=1494535924813&livereload=1494535882621&livereload=1494535887172&livereload=1494535924813" for ::1 at 2017-05-11 13:52:04 -0700
+Started GET "/assets/application.self-084dec5257bab0ea8f3d042e66110e5cc242c3ad5c30dc71478d8c61f34ddd85.css?body=1&livereload=1494535926949&livereload=1494535882621&livereload=1494535887172&livereload=1494535924813" for ::1 at 2017-05-11 13:52:06 -0700
+Started GET "/assets/application.self-084dec5257bab0ea8f3d042e66110e5cc242c3ad5c30dc71478d8c61f34ddd85.css?body=1&livereload=1494535926950&livereload=1494535882621&livereload=1494535887172&livereload=1494535924813" for ::1 at 2017-05-11 13:52:06 -0700
+Started GET "/assets/application.self-084dec5257bab0ea8f3d042e66110e5cc242c3ad5c30dc71478d8c61f34ddd85.css?body=1&livereload=1494535929000&livereload=1494535882621&livereload=1494535887172&livereload=1494535924813" for ::1 at 2017-05-11 13:52:09 -0700
+Started GET "/assets/application.self-084dec5257bab0ea8f3d042e66110e5cc242c3ad5c30dc71478d8c61f34ddd85.css?body=1&livereload=1494535929001&livereload=1494535882621&livereload=1494535887172&livereload=1494535924813" for ::1 at 2017-05-11 13:52:09 -0700
+Started GET "/assets/application.self-084dec5257bab0ea8f3d042e66110e5cc242c3ad5c30dc71478d8c61f34ddd85.css?body=1&livereload=1494535930028&livereload=1494535882621&livereload=1494535887172&livereload=1494535924813" for ::1 at 2017-05-11 13:52:10 -0700
+Started GET "/assets/application.self-084dec5257bab0ea8f3d042e66110e5cc242c3ad5c30dc71478d8c61f34ddd85.css?body=1&livereload=1494535930029&livereload=1494535882621&livereload=1494535887172&livereload=1494535924813" for ::1 at 2017-05-11 13:52:10 -0700
+Started GET "/assets/application.self-084dec5257bab0ea8f3d042e66110e5cc242c3ad5c30dc71478d8c61f34ddd85.css?body=1&livereload=1494535933472&livereload=1494535882621&livereload=1494535887172&livereload=1494535924813" for ::1 at 2017-05-11 13:52:13 -0700
+Started GET "/assets/application.self-084dec5257bab0ea8f3d042e66110e5cc242c3ad5c30dc71478d8c61f34ddd85.css?body=1&livereload=1494535933473&livereload=1494535882621&livereload=1494535887172&livereload=1494535924813" for ::1 at 2017-05-11 13:52:13 -0700
+Started GET "/assets/application.self-084dec5257bab0ea8f3d042e66110e5cc242c3ad5c30dc71478d8c61f34ddd85.css?body=1&livereload=1494535960350&livereload=1494535882621&livereload=1494535887172&livereload=1494535924813" for ::1 at 2017-05-11 13:52:40 -0700
+Started GET "/assets/application.self-084dec5257bab0ea8f3d042e66110e5cc242c3ad5c30dc71478d8c61f34ddd85.css?body=1&livereload=1494535960350&livereload=1494535882621&livereload=1494535887172&livereload=1494535924813&livereload=1494535960350" for ::1 at 2017-05-11 13:52:40 -0700
+Started GET "/assets/application.self-084dec5257bab0ea8f3d042e66110e5cc242c3ad5c30dc71478d8c61f34ddd85.css?body=1&livereload=1494535978856&livereload=1494535882621&livereload=1494535887172&livereload=1494535924813&livereload=1494535960350" for ::1 at 2017-05-11 13:52:58 -0700
+Started GET "/assets/application.self-084dec5257bab0ea8f3d042e66110e5cc242c3ad5c30dc71478d8c61f34ddd85.css?body=1&livereload=1494535978857&livereload=1494535882621&livereload=1494535887172&livereload=1494535924813&livereload=1494535960350" for ::1 at 2017-05-11 13:52:58 -0700
+Started GET "/assets/application.self-084dec5257bab0ea8f3d042e66110e5cc242c3ad5c30dc71478d8c61f34ddd85.css?body=1&livereload=1494535994113&livereload=1494535882621&livereload=1494535887172&livereload=1494535924813&livereload=1494535960350" for ::1 at 2017-05-11 13:53:14 -0700
+Started GET "/assets/application.self-084dec5257bab0ea8f3d042e66110e5cc242c3ad5c30dc71478d8c61f34ddd85.css?body=1&livereload=1494535994114&livereload=1494535882621&livereload=1494535887172&livereload=1494535924813&livereload=1494535960350" for ::1 at 2017-05-11 13:53:14 -0700
+Started GET "/assets/application.self-084dec5257bab0ea8f3d042e66110e5cc242c3ad5c30dc71478d8c61f34ddd85.css?body=1&livereload=1494536004643&livereload=1494535882621&livereload=1494535887172&livereload=1494535924813&livereload=1494535960350" for ::1 at 2017-05-11 13:53:24 -0700
+Started GET "/assets/application.self-084dec5257bab0ea8f3d042e66110e5cc242c3ad5c30dc71478d8c61f34ddd85.css?body=1&livereload=1494536004644&livereload=1494535882621&livereload=1494535887172&livereload=1494535924813&livereload=1494535960350" for ::1 at 2017-05-11 13:53:24 -0700
+Started GET "/assets/application.self-084dec5257bab0ea8f3d042e66110e5cc242c3ad5c30dc71478d8c61f34ddd85.css?body=1&livereload=1494536025577&livereload=1494535882621&livereload=1494535887172&livereload=1494535924813&livereload=1494535960350" for ::1 at 2017-05-11 13:53:45 -0700
+Started GET "/assets/application.self-084dec5257bab0ea8f3d042e66110e5cc242c3ad5c30dc71478d8c61f34ddd85.css?body=1&livereload=1494536025578&livereload=1494535882621&livereload=1494535887172&livereload=1494535924813&livereload=1494535960350" for ::1 at 2017-05-11 13:53:45 -0700
+Started GET "/" for ::1 at 2017-05-11 13:53:48 -0700
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.2ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.4ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 33ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-4cd9c30ee51ff5c12a269eab039904941eccc31bab58f05949813dc7ab2d402b.css?body=1" for ::1 at 2017-05-11 13:53:48 -0700
+Started GET "/assets/application.self-4cd9c30ee51ff5c12a269eab039904941eccc31bab58f05949813dc7ab2d402b.css?body=1&livereload=1494536040786" for ::1 at 2017-05-11 13:54:00 -0700
+Started GET "/assets/application.self-4cd9c30ee51ff5c12a269eab039904941eccc31bab58f05949813dc7ab2d402b.css?body=1&livereload=1494536040789" for ::1 at 2017-05-11 13:54:00 -0700
+Started GET "/assets/application.self-4cd9c30ee51ff5c12a269eab039904941eccc31bab58f05949813dc7ab2d402b.css?body=1&livereload=1494536049990" for ::1 at 2017-05-11 13:54:09 -0700
+Started GET "/assets/application.self-4cd9c30ee51ff5c12a269eab039904941eccc31bab58f05949813dc7ab2d402b.css?body=1&livereload=1494536049991" for ::1 at 2017-05-11 13:54:10 -0700
+Started GET "/assets/application.self-4cd9c30ee51ff5c12a269eab039904941eccc31bab58f05949813dc7ab2d402b.css?body=1&livereload=1494536057183" for ::1 at 2017-05-11 13:54:17 -0700
+Started GET "/assets/application.self-4cd9c30ee51ff5c12a269eab039904941eccc31bab58f05949813dc7ab2d402b.css?body=1&livereload=1494536057184" for ::1 at 2017-05-11 13:54:17 -0700
+Started GET "/assets/application.self-4cd9c30ee51ff5c12a269eab039904941eccc31bab58f05949813dc7ab2d402b.css?body=1&livereload=1494536064243" for ::1 at 2017-05-11 13:54:24 -0700
+Started GET "/assets/application.self-4cd9c30ee51ff5c12a269eab039904941eccc31bab58f05949813dc7ab2d402b.css?body=1&livereload=1494536064244" for ::1 at 2017-05-11 13:54:24 -0700
+Started GET "/assets/application.self-4cd9c30ee51ff5c12a269eab039904941eccc31bab58f05949813dc7ab2d402b.css?body=1&livereload=1494536109515" for ::1 at 2017-05-11 13:55:09 -0700
+Started GET "/assets/application.self-4cd9c30ee51ff5c12a269eab039904941eccc31bab58f05949813dc7ab2d402b.css?body=1&livereload=1494536109516" for ::1 at 2017-05-11 13:55:09 -0700
+Started GET "/assets/application.self-4cd9c30ee51ff5c12a269eab039904941eccc31bab58f05949813dc7ab2d402b.css?body=1&livereload=1494536124197" for ::1 at 2017-05-11 13:55:24 -0700
+Started GET "/assets/application.self-4cd9c30ee51ff5c12a269eab039904941eccc31bab58f05949813dc7ab2d402b.css?body=1&livereload=1494536124197&livereload=1494536124197" for ::1 at 2017-05-11 13:55:24 -0700
+Started GET "/assets/application.self-4cd9c30ee51ff5c12a269eab039904941eccc31bab58f05949813dc7ab2d402b.css?body=1&livereload=1494536147487&livereload=1494536124197" for ::1 at 2017-05-11 13:55:47 -0700
+Started GET "/assets/application.self-4cd9c30ee51ff5c12a269eab039904941eccc31bab58f05949813dc7ab2d402b.css?body=1&livereload=1494536147488&livereload=1494536124197" for ::1 at 2017-05-11 13:55:47 -0700
+Started GET "/assets/application.self-4cd9c30ee51ff5c12a269eab039904941eccc31bab58f05949813dc7ab2d402b.css?body=1&livereload=1494536162906&livereload=1494536124197" for ::1 at 2017-05-11 13:56:02 -0700
+Started GET "/assets/application.self-4cd9c30ee51ff5c12a269eab039904941eccc31bab58f05949813dc7ab2d402b.css?body=1&livereload=1494536162907&livereload=1494536124197" for ::1 at 2017-05-11 13:56:02 -0700
+Started GET "/assets/application.self-4cd9c30ee51ff5c12a269eab039904941eccc31bab58f05949813dc7ab2d402b.css?body=1&livereload=1494536196099&livereload=1494536124197" for ::1 at 2017-05-11 13:56:36 -0700
+Started GET "/assets/application.self-4cd9c30ee51ff5c12a269eab039904941eccc31bab58f05949813dc7ab2d402b.css?body=1&livereload=1494536196100&livereload=1494536124197" for ::1 at 2017-05-11 13:56:36 -0700
+Started GET "/assets/application.self-4cd9c30ee51ff5c12a269eab039904941eccc31bab58f05949813dc7ab2d402b.css?body=1&livereload=1494536203996&livereload=1494536124197" for ::1 at 2017-05-11 13:56:44 -0700
+Started GET "/assets/application.self-4cd9c30ee51ff5c12a269eab039904941eccc31bab58f05949813dc7ab2d402b.css?body=1&livereload=1494536203997&livereload=1494536124197" for ::1 at 2017-05-11 13:56:44 -0700
+Started GET "/assets/application.self-4cd9c30ee51ff5c12a269eab039904941eccc31bab58f05949813dc7ab2d402b.css?body=1&livereload=1494536248598&livereload=1494536124197" for ::1 at 2017-05-11 13:57:28 -0700
+Started GET "/assets/application.self-4cd9c30ee51ff5c12a269eab039904941eccc31bab58f05949813dc7ab2d402b.css?body=1&livereload=1494536248599&livereload=1494536124197" for ::1 at 2017-05-11 13:57:28 -0700
+Started GET "/assets/application.self-4cd9c30ee51ff5c12a269eab039904941eccc31bab58f05949813dc7ab2d402b.css?body=1&livereload=1494536263812&livereload=1494536124197" for ::1 at 2017-05-11 13:57:43 -0700
+Started GET "/assets/application.self-4cd9c30ee51ff5c12a269eab039904941eccc31bab58f05949813dc7ab2d402b.css?body=1&livereload=1494536263813&livereload=1494536124197" for ::1 at 2017-05-11 13:57:43 -0700
+Started GET "/assets/application.self-4cd9c30ee51ff5c12a269eab039904941eccc31bab58f05949813dc7ab2d402b.css?body=1&livereload=1494536272277&livereload=1494536124197" for ::1 at 2017-05-11 13:57:52 -0700
+Started GET "/assets/application.self-4cd9c30ee51ff5c12a269eab039904941eccc31bab58f05949813dc7ab2d402b.css?body=1&livereload=1494536272277&livereload=1494536124197&livereload=1494536272277" for ::1 at 2017-05-11 13:57:52 -0700
+Started GET "/assets/application.self-4cd9c30ee51ff5c12a269eab039904941eccc31bab58f05949813dc7ab2d402b.css?body=1&livereload=1494536311124&livereload=1494536124197&livereload=1494536272277" for ::1 at 2017-05-11 13:58:31 -0700
+Started GET "/assets/application.self-4cd9c30ee51ff5c12a269eab039904941eccc31bab58f05949813dc7ab2d402b.css?body=1&livereload=1494536311126&livereload=1494536124197&livereload=1494536272277" for ::1 at 2017-05-11 13:58:31 -0700
+Started GET "/assets/application.self-4cd9c30ee51ff5c12a269eab039904941eccc31bab58f05949813dc7ab2d402b.css?body=1&livereload=1494536325803&livereload=1494536124197&livereload=1494536272277" for ::1 at 2017-05-11 13:58:45 -0700
+Started GET "/assets/application.self-4cd9c30ee51ff5c12a269eab039904941eccc31bab58f05949813dc7ab2d402b.css?body=1&livereload=1494536325804&livereload=1494536124197&livereload=1494536272277" for ::1 at 2017-05-11 13:58:45 -0700
+Started GET "/assets/application.self-4cd9c30ee51ff5c12a269eab039904941eccc31bab58f05949813dc7ab2d402b.css?body=1&livereload=1494536397401&livereload=1494536124197&livereload=1494536272277" for ::1 at 2017-05-11 13:59:57 -0700
+Started GET "/assets/application.self-4cd9c30ee51ff5c12a269eab039904941eccc31bab58f05949813dc7ab2d402b.css?body=1&livereload=1494536397402&livereload=1494536124197&livereload=1494536272277" for ::1 at 2017-05-11 13:59:57 -0700
+Started GET "/assets/application.self-4cd9c30ee51ff5c12a269eab039904941eccc31bab58f05949813dc7ab2d402b.css?body=1&livereload=1494536401481&livereload=1494536124197&livereload=1494536272277" for ::1 at 2017-05-11 14:00:01 -0700
+Started GET "/assets/application.self-4cd9c30ee51ff5c12a269eab039904941eccc31bab58f05949813dc7ab2d402b.css?body=1&livereload=1494536401482&livereload=1494536124197&livereload=1494536272277" for ::1 at 2017-05-11 14:00:01 -0700
+Started GET "/assets/application.self-4cd9c30ee51ff5c12a269eab039904941eccc31bab58f05949813dc7ab2d402b.css?body=1&livereload=1494536403707&livereload=1494536124197&livereload=1494536272277" for ::1 at 2017-05-11 14:00:03 -0700
+Started GET "/assets/application.self-4cd9c30ee51ff5c12a269eab039904941eccc31bab58f05949813dc7ab2d402b.css?body=1&livereload=1494536403707&livereload=1494536124197&livereload=1494536272277&livereload=1494536403707" for ::1 at 2017-05-11 14:00:03 -0700
+Started GET "/assets/application.self-4cd9c30ee51ff5c12a269eab039904941eccc31bab58f05949813dc7ab2d402b.css?body=1&livereload=1494536417235&livereload=1494536124197&livereload=1494536272277&livereload=1494536403707" for ::1 at 2017-05-11 14:00:17 -0700
+Started GET "/assets/application.self-4cd9c30ee51ff5c12a269eab039904941eccc31bab58f05949813dc7ab2d402b.css?body=1&livereload=1494536417235&livereload=1494536124197&livereload=1494536272277&livereload=1494536403707&livereload=1494536417235" for ::1 at 2017-05-11 14:00:17 -0700
+Started GET "/assets/application.self-4cd9c30ee51ff5c12a269eab039904941eccc31bab58f05949813dc7ab2d402b.css?body=1&livereload=1494536446319&livereload=1494536124197&livereload=1494536272277&livereload=1494536403707&livereload=1494536417235" for ::1 at 2017-05-11 14:00:46 -0700
+Started GET "/assets/application.self-4cd9c30ee51ff5c12a269eab039904941eccc31bab58f05949813dc7ab2d402b.css?body=1&livereload=1494536446320&livereload=1494536124197&livereload=1494536272277&livereload=1494536403707&livereload=1494536417235" for ::1 at 2017-05-11 14:00:46 -0700
+Started GET "/assets/application.self-4cd9c30ee51ff5c12a269eab039904941eccc31bab58f05949813dc7ab2d402b.css?body=1&livereload=1494536476938&livereload=1494536124197&livereload=1494536272277&livereload=1494536403707&livereload=1494536417235" for ::1 at 2017-05-11 14:01:16 -0700
+Started GET "/assets/application.self-4cd9c30ee51ff5c12a269eab039904941eccc31bab58f05949813dc7ab2d402b.css?body=1&livereload=1494536476939&livereload=1494536124197&livereload=1494536272277&livereload=1494536403707&livereload=1494536417235" for ::1 at 2017-05-11 14:01:16 -0700
+Started GET "/assets/application.self-4cd9c30ee51ff5c12a269eab039904941eccc31bab58f05949813dc7ab2d402b.css?body=1&livereload=1494536594944&livereload=1494536124197&livereload=1494536272277&livereload=1494536403707&livereload=1494536417235" for ::1 at 2017-05-11 14:03:14 -0700
+Started GET "/assets/application.self-4cd9c30ee51ff5c12a269eab039904941eccc31bab58f05949813dc7ab2d402b.css?body=1&livereload=1494536594945&livereload=1494536124197&livereload=1494536272277&livereload=1494536403707&livereload=1494536417235" for ::1 at 2017-05-11 14:03:14 -0700
+Started GET "/assets/application.self-4cd9c30ee51ff5c12a269eab039904941eccc31bab58f05949813dc7ab2d402b.css?body=1&livereload=1494536631965&livereload=1494536124197&livereload=1494536272277&livereload=1494536403707&livereload=1494536417235" for ::1 at 2017-05-11 14:03:51 -0700
+Started GET "/assets/application.self-4cd9c30ee51ff5c12a269eab039904941eccc31bab58f05949813dc7ab2d402b.css?body=1&livereload=1494536631966&livereload=1494536124197&livereload=1494536272277&livereload=1494536403707&livereload=1494536417235" for ::1 at 2017-05-11 14:03:51 -0700
+Started GET "/" for ::1 at 2017-05-11 14:05:54 -0700
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.4ms)
+  Rendered shared/_masthead.html.erb (0.8ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (11.5ms)
+Completed 200 OK in 33ms (Views: 31.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-fe4579ed1032590b2a9cf763ad9d6bdefeb1c8f4a2efaceac89b6e2e65ab8198.css?body=1" for ::1 at 2017-05-11 14:05:54 -0700
+Started GET "/" for ::1 at 2017-05-11 14:10:23 -0700
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 25ms (Views: 22.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-05-11 14:10:31 -0700
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.2ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 29ms (Views: 27.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-05-11 14:10:49 -0700
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 26ms (Views: 24.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-05-11 14:11:19 -0700
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.4ms)
+  Rendered shared/_masthead.html.erb (0.4ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 27ms (Views: 25.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-05-11 14:11:22 -0700
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.4ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.5ms)
+  Rendered static_pages/index.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 27ms (Views: 25.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-05-11 14:11:53 -0700
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.4ms)
+  Rendered shared/_sections_nav.html.erb (0.4ms)
+  Rendered shared/_search_modal.html.erb (0.4ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (10.9ms)
+Completed 200 OK in 29ms (Views: 27.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/AA_Times_Logo.png" for ::1 at 2017-05-11 14:11:53 -0700
+Started GET "/" for ::1 at 2017-05-11 14:12:03 -0700
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.5ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 27ms (Views: 25.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/AA_Times_Logo.png" for ::1 at 2017-05-11 14:12:03 -0700
+Started GET "/" for ::1 at 2017-05-11 14:12:31 -0700
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.2ms)
+  Rendered shared/_masthead.html.erb (0.2ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 25ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/AA_Times_Logo.png" for ::1 at 2017-05-11 14:12:31 -0700
+Started GET "/" for ::1 at 2017-05-11 14:12:53 -0700
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 27ms (Views: 25.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/AA_Times_Logo.png" for ::1 at 2017-05-11 14:12:53 -0700
+Started GET "/" for ::1 at 2017-05-11 14:13:13 -0700
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.5ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 32ms (Views: 30.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/AA_Times_Logo.png" for ::1 at 2017-05-11 14:13:13 -0700
+Started GET "/" for ::1 at 2017-05-11 14:14:10 -0700
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 26ms (Views: 24.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/AA_Times_Logo.png" for ::1 at 2017-05-11 14:14:10 -0700
+Started GET "/" for ::1 at 2017-05-11 14:14:53 -0700
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.4ms)
+  Rendered shared/_masthead.html.erb (0.4ms)
+  Rendered shared/_sections_nav.html.erb (0.8ms)
+  Rendered shared/_search_modal.html.erb (0.7ms)
+  Rendered shared/_main_content.html.erb (0.5ms)
+  Rendered static_pages/index.html.erb within layouts/application (15.1ms)
+Completed 200 OK in 35ms (Views: 32.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/AA_Times_Logo.png" for ::1 at 2017-05-11 14:14:53 -0700
+Started GET "/" for ::1 at 2017-05-11 14:14:58 -0700
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.5ms)
+  Rendered shared/_masthead.html.erb (0.4ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.4ms)
+  Rendered static_pages/index.html.erb within layouts/application (10.5ms)
+Completed 200 OK in 27ms (Views: 25.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/AA_Times_Logo.png" for ::1 at 2017-05-11 14:14:59 -0700
+Started GET "/" for ::1 at 2017-05-11 14:15:22 -0700
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.4ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 27ms (Views: 24.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/AA_Times_Logo.png" for ::1 at 2017-05-11 14:15:22 -0700
+Started GET "/" for ::1 at 2017-05-11 14:16:02 -0700
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.5ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.4ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 27ms (Views: 25.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/AA_Times_Logo.png" for ::1 at 2017-05-11 14:16:02 -0700
+Started GET "/" for ::1 at 2017-05-11 14:16:16 -0700
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.4ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 27ms (Views: 25.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/AA_Times_Logo.png" for ::1 at 2017-05-11 14:16:16 -0700
+Started GET "/" for ::1 at 2017-05-11 14:16:49 -0700
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.4ms)
+  Rendered static_pages/index.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 26ms (Views: 23.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/AA_Times_Logo.png" for ::1 at 2017-05-11 14:16:49 -0700
+Started GET "/" for ::1 at 2017-05-11 14:17:03 -0700
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 27ms (Views: 25.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/AA_Times_Logo.png" for ::1 at 2017-05-11 14:17:03 -0700
+Started GET "/" for ::1 at 2017-05-11 14:17:21 -0700
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 25ms (Views: 23.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/AA_Times_Logo.png" for ::1 at 2017-05-11 14:17:21 -0700
+Started GET "/" for ::1 at 2017-05-11 14:17:52 -0700
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.8ms)
+  Rendered shared/_masthead.html.erb (0.4ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 34ms (Views: 32.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/AA_Times_Logo.png" for ::1 at 2017-05-11 14:17:52 -0700
+Started GET "/" for ::1 at 2017-05-11 14:19:47 -0700
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.5ms)
+  Rendered static_pages/index.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 29ms (Views: 27.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/AA_Times_Logo.png" for ::1 at 2017-05-11 14:19:47 -0700
+Started GET "/" for ::1 at 2017-05-11 14:19:57 -0700
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.4ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 26ms (Views: 23.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/AA_Times_Logo.png" for ::1 at 2017-05-11 14:19:57 -0700
+Started GET "/assets/application.self-fe4579ed1032590b2a9cf763ad9d6bdefeb1c8f4a2efaceac89b6e2e65ab8198.css?body=1&livereload=1494537726168" for ::1 at 2017-05-11 14:22:06 -0700
+Started GET "/assets/application.self-fe4579ed1032590b2a9cf763ad9d6bdefeb1c8f4a2efaceac89b6e2e65ab8198.css?body=1&livereload=1494537726170" for ::1 at 2017-05-11 14:22:06 -0700
+Started GET "/assets/application.self-fe4579ed1032590b2a9cf763ad9d6bdefeb1c8f4a2efaceac89b6e2e65ab8198.css?body=1&livereload=1494537773748" for ::1 at 2017-05-11 14:22:53 -0700
+Started GET "/assets/application.self-fe4579ed1032590b2a9cf763ad9d6bdefeb1c8f4a2efaceac89b6e2e65ab8198.css?body=1&livereload=1494537773748&livereload=1494537773748" for ::1 at 2017-05-11 14:22:53 -0700
+Started GET "/assets/application.self-fe4579ed1032590b2a9cf763ad9d6bdefeb1c8f4a2efaceac89b6e2e65ab8198.css?body=1&livereload=1494539441939&livereload=1494537773748" for ::1 at 2017-05-11 14:50:41 -0700
+Started GET "/assets/application.self-fe4579ed1032590b2a9cf763ad9d6bdefeb1c8f4a2efaceac89b6e2e65ab8198.css?body=1&livereload=1494539441938&livereload=1494537773748" for ::1 at 2017-05-11 14:50:41 -0700
+Started GET "/assets/application.self-fe4579ed1032590b2a9cf763ad9d6bdefeb1c8f4a2efaceac89b6e2e65ab8198.css?body=1&livereload=1494539455506&livereload=1494537773748" for ::1 at 2017-05-11 14:50:55 -0700
+Started GET "/assets/application.self-fe4579ed1032590b2a9cf763ad9d6bdefeb1c8f4a2efaceac89b6e2e65ab8198.css?body=1&livereload=1494539455507&livereload=1494537773748" for ::1 at 2017-05-11 14:50:55 -0700
+Started GET "/assets/application.self-fe4579ed1032590b2a9cf763ad9d6bdefeb1c8f4a2efaceac89b6e2e65ab8198.css?body=1&livereload=1494539460329&livereload=1494537773748" for ::1 at 2017-05-11 14:51:00 -0700
+Started GET "/assets/application.self-fe4579ed1032590b2a9cf763ad9d6bdefeb1c8f4a2efaceac89b6e2e65ab8198.css?body=1&livereload=1494539460330&livereload=1494537773748" for ::1 at 2017-05-11 14:51:00 -0700
+Started GET "/assets/application.self-fe4579ed1032590b2a9cf763ad9d6bdefeb1c8f4a2efaceac89b6e2e65ab8198.css?body=1&livereload=1494539489501&livereload=1494537773748" for ::1 at 2017-05-11 14:51:29 -0700
+Started GET "/assets/application.self-fe4579ed1032590b2a9cf763ad9d6bdefeb1c8f4a2efaceac89b6e2e65ab8198.css?body=1&livereload=1494539489503&livereload=1494537773748" for ::1 at 2017-05-11 14:51:29 -0700
+Started GET "/assets/application.self-fe4579ed1032590b2a9cf763ad9d6bdefeb1c8f4a2efaceac89b6e2e65ab8198.css?body=1&livereload=1494540373295&livereload=1494537773748" for ::1 at 2017-05-11 15:06:13 -0700
+Started GET "/assets/application.self-fe4579ed1032590b2a9cf763ad9d6bdefeb1c8f4a2efaceac89b6e2e65ab8198.css?body=1&livereload=1494540373297&livereload=1494537773748" for ::1 at 2017-05-11 15:06:13 -0700
+Started GET "/assets/application.self-fe4579ed1032590b2a9cf763ad9d6bdefeb1c8f4a2efaceac89b6e2e65ab8198.css?body=1&livereload=1494540376927&livereload=1494537773748" for ::1 at 2017-05-11 15:06:16 -0700
+Started GET "/assets/application.self-fe4579ed1032590b2a9cf763ad9d6bdefeb1c8f4a2efaceac89b6e2e65ab8198.css?body=1&livereload=1494540376928&livereload=1494537773748" for ::1 at 2017-05-11 15:06:16 -0700
+Started GET "/assets/application.self-fe4579ed1032590b2a9cf763ad9d6bdefeb1c8f4a2efaceac89b6e2e65ab8198.css?body=1&livereload=1494540386127&livereload=1494537773748" for ::1 at 2017-05-11 15:06:26 -0700
+Started GET "/assets/application.self-fe4579ed1032590b2a9cf763ad9d6bdefeb1c8f4a2efaceac89b6e2e65ab8198.css?body=1&livereload=1494540386129&livereload=1494537773748" for ::1 at 2017-05-11 15:06:26 -0700
+Started GET "/assets/application.self-fe4579ed1032590b2a9cf763ad9d6bdefeb1c8f4a2efaceac89b6e2e65ab8198.css?body=1&livereload=1494540395493&livereload=1494537773748" for ::1 at 2017-05-11 15:06:35 -0700
+Started GET "/assets/application.self-fe4579ed1032590b2a9cf763ad9d6bdefeb1c8f4a2efaceac89b6e2e65ab8198.css?body=1&livereload=1494540395494&livereload=1494537773748" for ::1 at 2017-05-11 15:06:35 -0700
+Started GET "/assets/application.self-fe4579ed1032590b2a9cf763ad9d6bdefeb1c8f4a2efaceac89b6e2e65ab8198.css?body=1&livereload=1494540407289&livereload=1494537773748" for ::1 at 2017-05-11 15:06:47 -0700
+Started GET "/assets/application.self-fe4579ed1032590b2a9cf763ad9d6bdefeb1c8f4a2efaceac89b6e2e65ab8198.css?body=1&livereload=1494540407290&livereload=1494537773748" for ::1 at 2017-05-11 15:06:47 -0700
+Started GET "/assets/application.self-fe4579ed1032590b2a9cf763ad9d6bdefeb1c8f4a2efaceac89b6e2e65ab8198.css?body=1&livereload=1494540410448&livereload=1494537773748" for ::1 at 2017-05-11 15:06:50 -0700
+Started GET "/assets/application.self-fe4579ed1032590b2a9cf763ad9d6bdefeb1c8f4a2efaceac89b6e2e65ab8198.css?body=1&livereload=1494540410449&livereload=1494537773748" for ::1 at 2017-05-11 15:06:50 -0700
+Started GET "/assets/application.self-fe4579ed1032590b2a9cf763ad9d6bdefeb1c8f4a2efaceac89b6e2e65ab8198.css?body=1&livereload=1494540517774&livereload=1494537773748" for ::1 at 2017-05-11 15:08:37 -0700
+Started GET "/assets/application.self-fe4579ed1032590b2a9cf763ad9d6bdefeb1c8f4a2efaceac89b6e2e65ab8198.css?body=1&livereload=1494540517775&livereload=1494537773748" for ::1 at 2017-05-11 15:08:37 -0700
+Started GET "/assets/application.self-fe4579ed1032590b2a9cf763ad9d6bdefeb1c8f4a2efaceac89b6e2e65ab8198.css?body=1&livereload=1494540521675&livereload=1494537773748" for ::1 at 2017-05-11 15:08:41 -0700
+Started GET "/assets/application.self-fe4579ed1032590b2a9cf763ad9d6bdefeb1c8f4a2efaceac89b6e2e65ab8198.css?body=1&livereload=1494540521676&livereload=1494537773748" for ::1 at 2017-05-11 15:08:41 -0700
+Started GET "/assets/application.self-fe4579ed1032590b2a9cf763ad9d6bdefeb1c8f4a2efaceac89b6e2e65ab8198.css?body=1&livereload=1494540526869&livereload=1494537773748" for ::1 at 2017-05-11 15:08:46 -0700
+Started GET "/assets/application.self-fe4579ed1032590b2a9cf763ad9d6bdefeb1c8f4a2efaceac89b6e2e65ab8198.css?body=1&livereload=1494540526869&livereload=1494537773748&livereload=1494540526869" for ::1 at 2017-05-11 15:08:46 -0700
+Started GET "/assets/application.self-fe4579ed1032590b2a9cf763ad9d6bdefeb1c8f4a2efaceac89b6e2e65ab8198.css?body=1&livereload=1494540530109&livereload=1494537773748&livereload=1494540526869" for ::1 at 2017-05-11 15:08:50 -0700
+Started GET "/assets/application.self-fe4579ed1032590b2a9cf763ad9d6bdefeb1c8f4a2efaceac89b6e2e65ab8198.css?body=1&livereload=1494540530110&livereload=1494537773748&livereload=1494540526869" for ::1 at 2017-05-11 15:08:50 -0700
+Started GET "/assets/application.self-fe4579ed1032590b2a9cf763ad9d6bdefeb1c8f4a2efaceac89b6e2e65ab8198.css?body=1&livereload=1494540538023&livereload=1494537773748&livereload=1494540526869" for ::1 at 2017-05-11 15:08:58 -0700
+Started GET "/assets/application.self-fe4579ed1032590b2a9cf763ad9d6bdefeb1c8f4a2efaceac89b6e2e65ab8198.css?body=1&livereload=1494540538024&livereload=1494537773748&livereload=1494540526869" for ::1 at 2017-05-11 15:08:58 -0700
+Started GET "/" for ::1 at 2017-05-11 15:10:58 -0700
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.4ms)
+  Rendered shared/_masthead.html.erb (0.6ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.5ms)
+  Rendered static_pages/index.html.erb within layouts/application (12.8ms)
+Completed 200 OK in 39ms (Views: 36.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-72256f5a22303e66f898f84103364ea7f1643c9834ab4791d1f5ae4090246f04.css?body=1" for ::1 at 2017-05-11 15:10:58 -0700
+Started GET "/assets/AA_Times_Logo.png" for ::1 at 2017-05-11 15:10:58 -0700
+Started GET "/assets/application.self-72256f5a22303e66f898f84103364ea7f1643c9834ab4791d1f5ae4090246f04.css?body=1&livereload=1494540690223" for ::1 at 2017-05-11 15:11:30 -0700
+Started GET "/assets/application.self-72256f5a22303e66f898f84103364ea7f1643c9834ab4791d1f5ae4090246f04.css?body=1&livereload=1494540690225" for ::1 at 2017-05-11 15:11:30 -0700
+Started GET "/assets/application.self-72256f5a22303e66f898f84103364ea7f1643c9834ab4791d1f5ae4090246f04.css?body=1&livereload=1494540701916" for ::1 at 2017-05-11 15:11:41 -0700
+Started GET "/assets/application.self-72256f5a22303e66f898f84103364ea7f1643c9834ab4791d1f5ae4090246f04.css?body=1&livereload=1494540701917" for ::1 at 2017-05-11 15:11:41 -0700
+Started GET "/assets/application.self-72256f5a22303e66f898f84103364ea7f1643c9834ab4791d1f5ae4090246f04.css?body=1&livereload=1494540712302" for ::1 at 2017-05-11 15:11:52 -0700
+Started GET "/assets/application.self-72256f5a22303e66f898f84103364ea7f1643c9834ab4791d1f5ae4090246f04.css?body=1&livereload=1494540712303" for ::1 at 2017-05-11 15:11:52 -0700
+Started GET "/assets/application.self-72256f5a22303e66f898f84103364ea7f1643c9834ab4791d1f5ae4090246f04.css?body=1&livereload=1494540715739" for ::1 at 2017-05-11 15:11:55 -0700
+Started GET "/assets/application.self-72256f5a22303e66f898f84103364ea7f1643c9834ab4791d1f5ae4090246f04.css?body=1&livereload=1494540715740" for ::1 at 2017-05-11 15:11:55 -0700
+Started GET "/assets/application.self-72256f5a22303e66f898f84103364ea7f1643c9834ab4791d1f5ae4090246f04.css?body=1&livereload=1494540718803" for ::1 at 2017-05-11 15:11:58 -0700
+Started GET "/assets/application.self-72256f5a22303e66f898f84103364ea7f1643c9834ab4791d1f5ae4090246f04.css?body=1&livereload=1494540718804" for ::1 at 2017-05-11 15:11:58 -0700
+Started GET "/assets/application.self-72256f5a22303e66f898f84103364ea7f1643c9834ab4791d1f5ae4090246f04.css?body=1&livereload=1494540730436" for ::1 at 2017-05-11 15:12:10 -0700
+Started GET "/assets/application.self-72256f5a22303e66f898f84103364ea7f1643c9834ab4791d1f5ae4090246f04.css?body=1&livereload=1494540730437" for ::1 at 2017-05-11 15:12:10 -0700
+Started GET "/assets/application.self-72256f5a22303e66f898f84103364ea7f1643c9834ab4791d1f5ae4090246f04.css?body=1&livereload=1494540841316" for ::1 at 2017-05-11 15:14:01 -0700
+Started GET "/assets/application.self-72256f5a22303e66f898f84103364ea7f1643c9834ab4791d1f5ae4090246f04.css?body=1&livereload=1494540841318" for ::1 at 2017-05-11 15:14:01 -0700
+Started GET "/" for ::1 at 2017-05-11 15:14:04 -0700
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.4ms)
+  Rendered shared/_masthead.html.erb (6.9ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (16.8ms)
+Completed 200 OK in 37ms (Views: 35.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-53ecc87653c854615335e699ab200073c17c64c58439a167e61e0c49eee5d4d9.css?body=1" for ::1 at 2017-05-11 15:14:04 -0700
+Started GET "/assets/AA_Times_Logo.png" for ::1 at 2017-05-11 15:14:04 -0700
+Started GET "/assets/application.self-53ecc87653c854615335e699ab200073c17c64c58439a167e61e0c49eee5d4d9.css?body=1&livereload=1494540864183" for ::1 at 2017-05-11 15:14:24 -0700
+Started GET "/assets/application.self-53ecc87653c854615335e699ab200073c17c64c58439a167e61e0c49eee5d4d9.css?body=1&livereload=1494540864185" for ::1 at 2017-05-11 15:14:24 -0700
+Started GET "/assets/application.self-53ecc87653c854615335e699ab200073c17c64c58439a167e61e0c49eee5d4d9.css?body=1&livereload=1494540923631" for ::1 at 2017-05-11 15:15:23 -0700
+Started GET "/assets/application.self-53ecc87653c854615335e699ab200073c17c64c58439a167e61e0c49eee5d4d9.css?body=1&livereload=1494540923633" for ::1 at 2017-05-11 15:15:23 -0700
+Started GET "/assets/application.self-53ecc87653c854615335e699ab200073c17c64c58439a167e61e0c49eee5d4d9.css?body=1&livereload=1494540928635" for ::1 at 2017-05-11 15:15:28 -0700
+Started GET "/assets/application.self-53ecc87653c854615335e699ab200073c17c64c58439a167e61e0c49eee5d4d9.css?body=1&livereload=1494540928636" for ::1 at 2017-05-11 15:15:28 -0700
+Started GET "/" for ::1 at 2017-05-11 15:15:36 -0700
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 33ms (Views: 30.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-99733518d44661289c6b285b8349f4e720a7fe1a2bc2b4cee59d6ec0ca9353ec.css?body=1" for ::1 at 2017-05-11 15:15:37 -0700
+Started GET "/assets/AA_Times_Logo.png" for ::1 at 2017-05-11 15:15:37 -0700
+Started GET "/" for ::1 at 2017-05-11 15:16:51 -0700
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.5ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 37ms (Views: 34.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/AA_Times_Logo.png" for ::1 at 2017-05-11 15:16:51 -0700
+Started GET "/" for ::1 at 2017-05-11 15:16:55 -0700
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.2ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.5ms)
+  Rendered shared/_search_modal.html.erb (0.5ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (10.6ms)
+Completed 200 OK in 26ms (Views: 24.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/AA_Times_Logo.png" for ::1 at 2017-05-11 15:16:55 -0700
+Started GET "/" for ::1 at 2017-05-11 15:18:52 -0700
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.2ms)
+  Rendered shared/_masthead.html.erb (0.5ms)
+  Rendered shared/_sections_nav.html.erb (3.6ms)
+  Rendered shared/_search_modal.html.erb (0.4ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (13.3ms)
+Completed 200 OK in 29ms (Views: 27.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/AA_Times_Logo.png" for ::1 at 2017-05-11 15:18:52 -0700
+Started GET "/" for ::1 at 2017-05-11 15:18:58 -0700
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 26ms (Views: 24.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/AA_Times_Logo.png" for ::1 at 2017-05-11 15:18:58 -0700
+Started GET "/" for ::1 at 2017-05-11 15:19:10 -0700
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.4ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 28ms (Views: 26.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/AA_Times_Logo.png" for ::1 at 2017-05-11 15:19:10 -0700
+Started GET "/" for ::1 at 2017-05-11 15:19:21 -0700
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.4ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 27ms (Views: 25.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/AA_Times_Logo.png" for ::1 at 2017-05-11 15:19:21 -0700
+Started GET "/" for ::1 at 2017-05-11 15:19:24 -0700
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.5ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 29ms (Views: 27.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/AA_Times_Logo.png" for ::1 at 2017-05-11 15:19:24 -0700
+Started GET "/" for ::1 at 2017-05-11 15:19:41 -0700
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.5ms)
+  Rendered shared/_sections_nav.html.erb (18.0ms)
+  Rendered static_pages/index.html.erb within layouts/application (24.5ms)
+Completed 500 Internal Server Error in 30ms (ActiveRecord: 0.0ms)
+
+
+DEPRECATION WARNING: #original_exception is deprecated. Use #cause instead. (called from initialize at /Users/ryanmora/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/better_errors-2.1.1/lib/better_errors/raised_exception.rb:7)
+DEPRECATION WARNING: #original_exception is deprecated. Use #cause instead. (called from initialize at /Users/ryanmora/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/better_errors-2.1.1/lib/better_errors/raised_exception.rb:8)
+
+ActionView::MissingTemplate - Missing partial shared/_search)modal with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/ryanmora/Desktop/AppAcademy/projects/aatimes/skeleton/app/views"
+:
+  actionview (5.0.2) lib/action_view/path_set.rb:46:in `find'
+  actionview (5.0.2) lib/action_view/lookup_context.rb:122:in `find'
+  actionview (5.0.2) lib/action_view/renderer/partial_renderer.rb:420:in `find_template'
+  actionview (5.0.2) lib/action_view/renderer/partial_renderer.rb:415:in `find_partial'
+  actionview (5.0.2) lib/action_view/renderer/partial_renderer.rb:297:in `render'
+  actionview (5.0.2) lib/action_view/renderer/renderer.rb:47:in `render_partial'
+  actionview (5.0.2) lib/action_view/helpers/rendering_helper.rb:35:in `render'
+  app/views/shared/_sections_nav.html.erb:16:in `_app_views_shared__sections_nav_html_erb__436761400983657750_70104481854460'
+  actionview (5.0.2) lib/action_view/template.rb:159:in `block in render'
+  activesupport (5.0.2) lib/active_support/notifications.rb:166:in `instrument'
+  actionview (5.0.2) lib/action_view/template.rb:354:in `instrument'
+  actionview (5.0.2) lib/action_view/template.rb:157:in `render'
+  actionview (5.0.2) lib/action_view/renderer/partial_renderer.rb:343:in `render_partial'
+  actionview (5.0.2) lib/action_view/renderer/partial_renderer.rb:311:in `block in render'
+  actionview (5.0.2) lib/action_view/renderer/abstract_renderer.rb:42:in `block in instrument'
+  activesupport (5.0.2) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (5.0.2) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+  activesupport (5.0.2) lib/active_support/notifications.rb:164:in `instrument'
+  actionview (5.0.2) lib/action_view/renderer/abstract_renderer.rb:41:in `instrument'
+  actionview (5.0.2) lib/action_view/renderer/partial_renderer.rb:310:in `render'
+  actionview (5.0.2) lib/action_view/renderer/renderer.rb:47:in `render_partial'
+  actionview (5.0.2) lib/action_view/renderer/renderer.rb:21:in `render'
+  actionview (5.0.2) lib/action_view/helpers/rendering_helper.rb:32:in `render'
+  app/views/static_pages/index.html.erb:3:in `_app_views_static_pages_index_html_erb__2918647604384409310_70104506509380'
+  actionview (5.0.2) lib/action_view/template.rb:159:in `block in render'
+  activesupport (5.0.2) lib/active_support/notifications.rb:166:in `instrument'
+  actionview (5.0.2) lib/action_view/template.rb:354:in `instrument'
+  actionview (5.0.2) lib/action_view/template.rb:157:in `render'
+  actionview (5.0.2) lib/action_view/renderer/template_renderer.rb:54:in `block (2 levels) in render_template'
+  actionview (5.0.2) lib/action_view/renderer/abstract_renderer.rb:42:in `block in instrument'
+  activesupport (5.0.2) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (5.0.2) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+  activesupport (5.0.2) lib/active_support/notifications.rb:164:in `instrument'
+  actionview (5.0.2) lib/action_view/renderer/abstract_renderer.rb:41:in `instrument'
+  actionview (5.0.2) lib/action_view/renderer/template_renderer.rb:53:in `block in render_template'
+  actionview (5.0.2) lib/action_view/renderer/template_renderer.rb:61:in `render_with_layout'
+  actionview (5.0.2) lib/action_view/renderer/template_renderer.rb:52:in `render_template'
+  actionview (5.0.2) lib/action_view/renderer/template_renderer.rb:14:in `render'
+  actionview (5.0.2) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (5.0.2) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (5.0.2) lib/action_view/rendering.rb:104:in `_render_template'
+  actionpack (5.0.2) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (5.0.2) lib/action_view/rendering.rb:83:in `render_to_body'
+  actionpack (5.0.2) lib/action_controller/metal/rendering.rb:52:in `render_to_body'
+  actionpack (5.0.2) lib/action_controller/metal/renderers.rb:142:in `render_to_body'
+  actionpack (5.0.2) lib/abstract_controller/rendering.rb:26:in `render'
+  actionpack (5.0.2) lib/action_controller/metal/rendering.rb:36:in `render'
+  actionpack (5.0.2) lib/action_controller/metal/instrumentation.rb:44:in `block (2 levels) in render'
+  activesupport (5.0.2) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/ryanmora/.rbenv/versions/2.3.1/lib/ruby/2.3.0/benchmark.rb:308:in `realtime'
+  activesupport (5.0.2) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (5.0.2) lib/action_controller/metal/instrumentation.rb:44:in `block in render'
+  actionpack (5.0.2) lib/action_controller/metal/instrumentation.rb:87:in `cleanup_view_runtime'
+  activerecord (5.0.2) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (5.0.2) lib/action_controller/metal/instrumentation.rb:43:in `render'
+  actionpack (5.0.2) lib/action_controller/metal/implicit_render.rb:36:in `default_render'
+  actionpack (5.0.2) lib/action_controller/metal/basic_implicit_render.rb:4:in `block in send_action'
+  actionpack (5.0.2) lib/action_controller/metal/basic_implicit_render.rb:4:in `send_action'
+  actionpack (5.0.2) lib/abstract_controller/base.rb:188:in `process_action'
+  actionpack (5.0.2) lib/action_controller/metal/rendering.rb:30:in `process_action'
+  actionpack (5.0.2) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (5.0.2) lib/active_support/callbacks.rb:126:in `call'
+  activesupport (5.0.2) lib/active_support/callbacks.rb:506:in `block (2 levels) in compile'
+  activesupport (5.0.2) lib/active_support/callbacks.rb:455:in `call'
+  activesupport (5.0.2) lib/active_support/callbacks.rb:101:in `__run_callbacks__'
+  activesupport (5.0.2) lib/active_support/callbacks.rb:750:in `_run_process_action_callbacks'
+  activesupport (5.0.2) lib/active_support/callbacks.rb:90:in `run_callbacks'
+  actionpack (5.0.2) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (5.0.2) lib/action_controller/metal/rescue.rb:20:in `process_action'
+  actionpack (5.0.2) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (5.0.2) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (5.0.2) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+  activesupport (5.0.2) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (5.0.2) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (5.0.2) lib/action_controller/metal/params_wrapper.rb:248:in `process_action'
+  activerecord (5.0.2) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (5.0.2) lib/abstract_controller/base.rb:126:in `process'
+  actionview (5.0.2) lib/action_view/rendering.rb:30:in `process'
+  actionpack (5.0.2) lib/action_controller/metal.rb:190:in `dispatch'
+  actionpack (5.0.2) lib/action_controller/metal.rb:262:in `dispatch'
+  actionpack (5.0.2) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+  actionpack (5.0.2) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+  actionpack (5.0.2) lib/action_dispatch/journey/router.rb:39:in `block in serve'
+  actionpack (5.0.2) lib/action_dispatch/journey/router.rb:26:in `serve'
+  actionpack (5.0.2) lib/action_dispatch/routing/route_set.rb:725:in `call'
+  rack (2.0.2) lib/rack/etag.rb:25:in `call'
+  rack (2.0.2) lib/rack/conditional_get.rb:25:in `call'
+  rack (2.0.2) lib/rack/head.rb:12:in `call'
+  rack (2.0.2) lib/rack/session/abstract/id.rb:232:in `context'
+  rack (2.0.2) lib/rack/session/abstract/id.rb:226:in `call'
+  actionpack (5.0.2) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+  activerecord (5.0.2) lib/active_record/migration.rb:553:in `call'
+  actionpack (5.0.2) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+  activesupport (5.0.2) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+  activesupport (5.0.2) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+  activesupport (5.0.2) lib/active_support/callbacks.rb:90:in `run_callbacks'
+  actionpack (5.0.2) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+  actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+  actionpack (5.0.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+  web-console (3.5.0) lib/web_console/middleware.rb:135:in `call_app'
+  web-console (3.5.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (3.5.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+  railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+  railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+  activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+  activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+  railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+  actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+  rack (2.0.2) lib/rack/method_override.rb:22:in `call'
+  rack (2.0.2) lib/rack/runtime.rb:22:in `call'
+  activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+  rack-livereload (0.3.16) lib/rack/livereload.rb:23:in `_call'
+  rack-livereload (0.3.16) lib/rack/livereload.rb:14:in `call'
+  actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+  rack (2.0.2) lib/rack/sendfile.rb:111:in `call'
+  railties (5.0.2) lib/rails/engine.rb:522:in `call'
+  puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+  puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+  puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+  puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+  puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+
+Started POST "/__better_errors/e7bf1f742217f694/variables" for ::1 at 2017-05-11 15:19:41 -0700
+Started GET "/" for ::1 at 2017-05-11 15:19:47 -0700
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.4ms)
+  Rendered shared/_masthead.html.erb (0.5ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (2.2ms)
+  Rendered shared/_search_modal.html.erb (0.0ms)
+  Rendered shared/_main_content.html.erb (0.4ms)
+  Rendered static_pages/index.html.erb within layouts/application (15.1ms)
+Completed 200 OK in 39ms (Views: 35.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/AA_Times_Logo.png" for ::1 at 2017-05-11 15:19:47 -0700
+Started GET "/" for ::1 at 2017-05-11 15:19:53 -0700
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.2ms)
+  Rendered shared/_masthead.html.erb (0.4ms)
+  Rendered shared/_sections_nav.html.erb (4.5ms)
+  Rendered static_pages/index.html.erb within layouts/application (10.6ms)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms)
+
+
+DEPRECATION WARNING: #original_exception is deprecated. Use #cause instead. (called from initialize at /Users/ryanmora/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/better_errors-2.1.1/lib/better_errors/raised_exception.rb:7)
+DEPRECATION WARNING: #original_exception is deprecated. Use #cause instead. (called from initialize at /Users/ryanmora/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/better_errors-2.1.1/lib/better_errors/raised_exception.rb:8)
+
+ActionView::MissingTemplate - Missing partial shared/_search_model with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/ryanmora/Desktop/AppAcademy/projects/aatimes/skeleton/app/views"
+:
+  actionview (5.0.2) lib/action_view/path_set.rb:46:in `find'
+  actionview (5.0.2) lib/action_view/lookup_context.rb:122:in `find'
+  actionview (5.0.2) lib/action_view/renderer/partial_renderer.rb:420:in `find_template'
+  actionview (5.0.2) lib/action_view/renderer/partial_renderer.rb:415:in `find_partial'
+  actionview (5.0.2) lib/action_view/renderer/partial_renderer.rb:297:in `render'
+  actionview (5.0.2) lib/action_view/renderer/renderer.rb:47:in `render_partial'
+  actionview (5.0.2) lib/action_view/helpers/rendering_helper.rb:35:in `render'
+  app/views/shared/_sections_nav.html.erb:16:in `_app_views_shared__sections_nav_html_erb__436761400983657750_70104483913200'
+  actionview (5.0.2) lib/action_view/template.rb:159:in `block in render'
+  activesupport (5.0.2) lib/active_support/notifications.rb:166:in `instrument'
+  actionview (5.0.2) lib/action_view/template.rb:354:in `instrument'
+  actionview (5.0.2) lib/action_view/template.rb:157:in `render'
+  actionview (5.0.2) lib/action_view/renderer/partial_renderer.rb:343:in `render_partial'
+  actionview (5.0.2) lib/action_view/renderer/partial_renderer.rb:311:in `block in render'
+  actionview (5.0.2) lib/action_view/renderer/abstract_renderer.rb:42:in `block in instrument'
+  activesupport (5.0.2) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (5.0.2) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+  activesupport (5.0.2) lib/active_support/notifications.rb:164:in `instrument'
+  actionview (5.0.2) lib/action_view/renderer/abstract_renderer.rb:41:in `instrument'
+  actionview (5.0.2) lib/action_view/renderer/partial_renderer.rb:310:in `render'
+  actionview (5.0.2) lib/action_view/renderer/renderer.rb:47:in `render_partial'
+  actionview (5.0.2) lib/action_view/renderer/renderer.rb:21:in `render'
+  actionview (5.0.2) lib/action_view/helpers/rendering_helper.rb:32:in `render'
+  app/views/static_pages/index.html.erb:3:in `_app_views_static_pages_index_html_erb__2918647604384409310_70104522612460'
+  actionview (5.0.2) lib/action_view/template.rb:159:in `block in render'
+  activesupport (5.0.2) lib/active_support/notifications.rb:166:in `instrument'
+  actionview (5.0.2) lib/action_view/template.rb:354:in `instrument'
+  actionview (5.0.2) lib/action_view/template.rb:157:in `render'
+  actionview (5.0.2) lib/action_view/renderer/template_renderer.rb:54:in `block (2 levels) in render_template'
+  actionview (5.0.2) lib/action_view/renderer/abstract_renderer.rb:42:in `block in instrument'
+  activesupport (5.0.2) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (5.0.2) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+  activesupport (5.0.2) lib/active_support/notifications.rb:164:in `instrument'
+  actionview (5.0.2) lib/action_view/renderer/abstract_renderer.rb:41:in `instrument'
+  actionview (5.0.2) lib/action_view/renderer/template_renderer.rb:53:in `block in render_template'
+  actionview (5.0.2) lib/action_view/renderer/template_renderer.rb:61:in `render_with_layout'
+  actionview (5.0.2) lib/action_view/renderer/template_renderer.rb:52:in `render_template'
+  actionview (5.0.2) lib/action_view/renderer/template_renderer.rb:14:in `render'
+  actionview (5.0.2) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (5.0.2) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (5.0.2) lib/action_view/rendering.rb:104:in `_render_template'
+  actionpack (5.0.2) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (5.0.2) lib/action_view/rendering.rb:83:in `render_to_body'
+  actionpack (5.0.2) lib/action_controller/metal/rendering.rb:52:in `render_to_body'
+  actionpack (5.0.2) lib/action_controller/metal/renderers.rb:142:in `render_to_body'
+  actionpack (5.0.2) lib/abstract_controller/rendering.rb:26:in `render'
+  actionpack (5.0.2) lib/action_controller/metal/rendering.rb:36:in `render'
+  actionpack (5.0.2) lib/action_controller/metal/instrumentation.rb:44:in `block (2 levels) in render'
+  activesupport (5.0.2) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/ryanmora/.rbenv/versions/2.3.1/lib/ruby/2.3.0/benchmark.rb:308:in `realtime'
+  activesupport (5.0.2) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (5.0.2) lib/action_controller/metal/instrumentation.rb:44:in `block in render'
+  actionpack (5.0.2) lib/action_controller/metal/instrumentation.rb:87:in `cleanup_view_runtime'
+  activerecord (5.0.2) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (5.0.2) lib/action_controller/metal/instrumentation.rb:43:in `render'
+  actionpack (5.0.2) lib/action_controller/metal/implicit_render.rb:36:in `default_render'
+  actionpack (5.0.2) lib/action_controller/metal/basic_implicit_render.rb:4:in `block in send_action'
+  actionpack (5.0.2) lib/action_controller/metal/basic_implicit_render.rb:4:in `send_action'
+  actionpack (5.0.2) lib/abstract_controller/base.rb:188:in `process_action'
+  actionpack (5.0.2) lib/action_controller/metal/rendering.rb:30:in `process_action'
+  actionpack (5.0.2) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (5.0.2) lib/active_support/callbacks.rb:126:in `call'
+  activesupport (5.0.2) lib/active_support/callbacks.rb:506:in `block (2 levels) in compile'
+  activesupport (5.0.2) lib/active_support/callbacks.rb:455:in `call'
+  activesupport (5.0.2) lib/active_support/callbacks.rb:101:in `__run_callbacks__'
+  activesupport (5.0.2) lib/active_support/callbacks.rb:750:in `_run_process_action_callbacks'
+  activesupport (5.0.2) lib/active_support/callbacks.rb:90:in `run_callbacks'
+  actionpack (5.0.2) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (5.0.2) lib/action_controller/metal/rescue.rb:20:in `process_action'
+  actionpack (5.0.2) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (5.0.2) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (5.0.2) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+  activesupport (5.0.2) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (5.0.2) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (5.0.2) lib/action_controller/metal/params_wrapper.rb:248:in `process_action'
+  activerecord (5.0.2) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (5.0.2) lib/abstract_controller/base.rb:126:in `process'
+  actionview (5.0.2) lib/action_view/rendering.rb:30:in `process'
+  actionpack (5.0.2) lib/action_controller/metal.rb:190:in `dispatch'
+  actionpack (5.0.2) lib/action_controller/metal.rb:262:in `dispatch'
+  actionpack (5.0.2) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+  actionpack (5.0.2) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+  actionpack (5.0.2) lib/action_dispatch/journey/router.rb:39:in `block in serve'
+  actionpack (5.0.2) lib/action_dispatch/journey/router.rb:26:in `serve'
+  actionpack (5.0.2) lib/action_dispatch/routing/route_set.rb:725:in `call'
+  rack (2.0.2) lib/rack/etag.rb:25:in `call'
+  rack (2.0.2) lib/rack/conditional_get.rb:25:in `call'
+  rack (2.0.2) lib/rack/head.rb:12:in `call'
+  rack (2.0.2) lib/rack/session/abstract/id.rb:232:in `context'
+  rack (2.0.2) lib/rack/session/abstract/id.rb:226:in `call'
+  actionpack (5.0.2) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+  activerecord (5.0.2) lib/active_record/migration.rb:553:in `call'
+  actionpack (5.0.2) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+  activesupport (5.0.2) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+  activesupport (5.0.2) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+  activesupport (5.0.2) lib/active_support/callbacks.rb:90:in `run_callbacks'
+  actionpack (5.0.2) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+  actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+  actionpack (5.0.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+  web-console (3.5.0) lib/web_console/middleware.rb:135:in `call_app'
+  web-console (3.5.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (3.5.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+  railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+  railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+  activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+  activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+  railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+  actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+  rack (2.0.2) lib/rack/method_override.rb:22:in `call'
+  rack (2.0.2) lib/rack/runtime.rb:22:in `call'
+  activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+  rack-livereload (0.3.16) lib/rack/livereload.rb:23:in `_call'
+  rack-livereload (0.3.16) lib/rack/livereload.rb:14:in `call'
+  actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+  rack (2.0.2) lib/rack/sendfile.rb:111:in `call'
+  railties (5.0.2) lib/rails/engine.rb:522:in `call'
+  puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+  puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+  puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+  puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+  puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+
+Started POST "/__better_errors/7f825ea14cc1c562/variables" for ::1 at 2017-05-11 15:19:53 -0700
+Started GET "/" for ::1 at 2017-05-11 15:19:58 -0700
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.6ms)
+  Rendered shared/_masthead.html.erb (0.5ms)
+  Rendered shared/_search_modal.html.erb (0.9ms)
+  Rendered shared/_sections_nav.html.erb (3.0ms)
+  Rendered shared/_search_modal.html.erb (0.0ms)
+  Rendered shared/_main_content.html.erb (0.5ms)
+  Rendered static_pages/index.html.erb within layouts/application (15.8ms)
+Completed 200 OK in 36ms (Views: 33.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/AA_Times_Logo.png" for ::1 at 2017-05-11 15:19:58 -0700
+Started GET "/assets/application.self-99733518d44661289c6b285b8349f4e720a7fe1a2bc2b4cee59d6ec0ca9353ec.css?body=1&livereload=1494541233111" for ::1 at 2017-05-11 15:20:33 -0700
+Started GET "/assets/application.self-99733518d44661289c6b285b8349f4e720a7fe1a2bc2b4cee59d6ec0ca9353ec.css?body=1&livereload=1494541233113" for ::1 at 2017-05-11 15:20:33 -0700
+Started GET "/assets/application.self-99733518d44661289c6b285b8349f4e720a7fe1a2bc2b4cee59d6ec0ca9353ec.css?body=1&livereload=1494541240746" for ::1 at 2017-05-11 15:20:40 -0700
+Started GET "/assets/application.self-99733518d44661289c6b285b8349f4e720a7fe1a2bc2b4cee59d6ec0ca9353ec.css?body=1&livereload=1494541240747" for ::1 at 2017-05-11 15:20:40 -0700
+Started GET "/assets/application.self-99733518d44661289c6b285b8349f4e720a7fe1a2bc2b4cee59d6ec0ca9353ec.css?body=1&livereload=1494541252480" for ::1 at 2017-05-11 15:20:52 -0700
+Started GET "/assets/application.self-99733518d44661289c6b285b8349f4e720a7fe1a2bc2b4cee59d6ec0ca9353ec.css?body=1&livereload=1494541252481" for ::1 at 2017-05-11 15:20:52 -0700
+Started GET "/assets/application.self-99733518d44661289c6b285b8349f4e720a7fe1a2bc2b4cee59d6ec0ca9353ec.css?body=1&livereload=1494541265707" for ::1 at 2017-05-11 15:21:05 -0700
+Started GET "/assets/application.self-99733518d44661289c6b285b8349f4e720a7fe1a2bc2b4cee59d6ec0ca9353ec.css?body=1&livereload=1494541265708" for ::1 at 2017-05-11 15:21:05 -0700
+Started GET "/assets/application.self-99733518d44661289c6b285b8349f4e720a7fe1a2bc2b4cee59d6ec0ca9353ec.css?body=1&livereload=1494541286893" for ::1 at 2017-05-11 15:21:26 -0700
+Started GET "/assets/application.self-99733518d44661289c6b285b8349f4e720a7fe1a2bc2b4cee59d6ec0ca9353ec.css?body=1&livereload=1494541286894" for ::1 at 2017-05-11 15:21:26 -0700
+Started GET "/assets/application.self-99733518d44661289c6b285b8349f4e720a7fe1a2bc2b4cee59d6ec0ca9353ec.css?body=1&livereload=1494541298511" for ::1 at 2017-05-11 15:21:38 -0700
+Started GET "/assets/application.self-99733518d44661289c6b285b8349f4e720a7fe1a2bc2b4cee59d6ec0ca9353ec.css?body=1&livereload=1494541298513" for ::1 at 2017-05-11 15:21:38 -0700
+Started GET "/assets/application.self-99733518d44661289c6b285b8349f4e720a7fe1a2bc2b4cee59d6ec0ca9353ec.css?body=1&livereload=1494541308207" for ::1 at 2017-05-11 15:21:48 -0700
+Started GET "/assets/application.self-99733518d44661289c6b285b8349f4e720a7fe1a2bc2b4cee59d6ec0ca9353ec.css?body=1&livereload=1494541308208" for ::1 at 2017-05-11 15:21:48 -0700
+Started GET "/assets/application.self-99733518d44661289c6b285b8349f4e720a7fe1a2bc2b4cee59d6ec0ca9353ec.css?body=1&livereload=1494541314715" for ::1 at 2017-05-11 15:21:54 -0700
+Started GET "/assets/application.self-99733518d44661289c6b285b8349f4e720a7fe1a2bc2b4cee59d6ec0ca9353ec.css?body=1&livereload=1494541314717" for ::1 at 2017-05-11 15:21:54 -0700
+Started GET "/assets/application.self-99733518d44661289c6b285b8349f4e720a7fe1a2bc2b4cee59d6ec0ca9353ec.css?body=1&livereload=1494541339251" for ::1 at 2017-05-11 15:22:19 -0700
+Started GET "/assets/application.self-99733518d44661289c6b285b8349f4e720a7fe1a2bc2b4cee59d6ec0ca9353ec.css?body=1&livereload=1494541339251&livereload=1494541339251" for ::1 at 2017-05-11 15:22:19 -0700
+Started GET "/assets/application.self-99733518d44661289c6b285b8349f4e720a7fe1a2bc2b4cee59d6ec0ca9353ec.css?body=1&livereload=1494541369841&livereload=1494541339251" for ::1 at 2017-05-11 15:22:49 -0700
+Started GET "/assets/application.self-99733518d44661289c6b285b8349f4e720a7fe1a2bc2b4cee59d6ec0ca9353ec.css?body=1&livereload=1494541369842&livereload=1494541339251" for ::1 at 2017-05-11 15:22:49 -0700
+Started GET "/assets/application.self-99733518d44661289c6b285b8349f4e720a7fe1a2bc2b4cee59d6ec0ca9353ec.css?body=1&livereload=1494541394836&livereload=1494541339251" for ::1 at 2017-05-11 15:23:14 -0700
+Started GET "/assets/application.self-99733518d44661289c6b285b8349f4e720a7fe1a2bc2b4cee59d6ec0ca9353ec.css?body=1&livereload=1494541394837&livereload=1494541339251" for ::1 at 2017-05-11 15:23:14 -0700
+Started GET "/" for ::1 at 2017-05-11 15:26:18 -0700
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.3ms)
+  Rendered shared/_main_nav.html.erb (3.4ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_sections_nav.html.erb (1.8ms)
+  Rendered shared/_search_modal.html.erb (0.0ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (13.3ms)
+Completed 200 OK in 36ms (Views: 33.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-022639a3b466c654716828c84c531c45c4f7c53f227c9c91e40c5a81b01cd3dc.css?body=1" for ::1 at 2017-05-11 15:26:18 -0700
+Started GET "/assets/AA_Times_Logo.png" for ::1 at 2017-05-11 15:26:18 -0700
+Started GET "/assets/application.self-022639a3b466c654716828c84c531c45c4f7c53f227c9c91e40c5a81b01cd3dc.css?body=1&livereload=1494541639085" for ::1 at 2017-05-11 15:27:19 -0700
+Started GET "/assets/application.self-022639a3b466c654716828c84c531c45c4f7c53f227c9c91e40c5a81b01cd3dc.css?body=1&livereload=1494541639087" for ::1 at 2017-05-11 15:27:19 -0700
+Started GET "/" for ::1 at 2017-05-11 15:27:32 -0700
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.5ms)
+  Rendered shared/_main_nav.html.erb (3.4ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_sections_nav.html.erb (2.0ms)
+  Rendered shared/_search_modal.html.erb (0.1ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (16.6ms)
+Completed 200 OK in 42ms (Views: 40.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e9612f4d123543dd5eeb0163e1d38c1fea7eaea65f40b9606909e330835d2ba6.css?body=1" for ::1 at 2017-05-11 15:27:32 -0700
+Started GET "/assets/AA_Times_Logo.png" for ::1 at 2017-05-11 15:27:32 -0700
+Started GET "/" for ::1 at 2017-05-11 15:27:35 -0700
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.8ms)
+  Rendered shared/_main_nav.html.erb (3.2ms)
+  Rendered shared/_masthead.html.erb (0.4ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_sections_nav.html.erb (2.0ms)
+  Rendered shared/_search_modal.html.erb (0.0ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (13.8ms)
+Completed 200 OK in 30ms (Views: 28.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/AA_Times_Logo.png" for ::1 at 2017-05-11 15:27:35 -0700
+Started GET "/assets/application.self-e9612f4d123543dd5eeb0163e1d38c1fea7eaea65f40b9606909e330835d2ba6.css?body=1&livereload=1494541754749" for ::1 at 2017-05-11 15:29:14 -0700
+Started GET "/assets/application.self-e9612f4d123543dd5eeb0163e1d38c1fea7eaea65f40b9606909e330835d2ba6.css?body=1&livereload=1494541754751" for ::1 at 2017-05-11 15:29:14 -0700
+Started GET "/assets/application.self-e9612f4d123543dd5eeb0163e1d38c1fea7eaea65f40b9606909e330835d2ba6.css?body=1&livereload=1494541811372" for ::1 at 2017-05-11 15:30:11 -0700
+Started GET "/assets/application.self-e9612f4d123543dd5eeb0163e1d38c1fea7eaea65f40b9606909e330835d2ba6.css?body=1&livereload=1494541811373" for ::1 at 2017-05-11 15:30:11 -0700
+Started GET "/assets/application.self-e9612f4d123543dd5eeb0163e1d38c1fea7eaea65f40b9606909e330835d2ba6.css?body=1&livereload=1494541815468" for ::1 at 2017-05-11 15:30:15 -0700
+Started GET "/assets/application.self-e9612f4d123543dd5eeb0163e1d38c1fea7eaea65f40b9606909e330835d2ba6.css?body=1&livereload=1494541815468&livereload=1494541815468" for ::1 at 2017-05-11 15:30:15 -0700
+Started GET "/assets/application.self-e9612f4d123543dd5eeb0163e1d38c1fea7eaea65f40b9606909e330835d2ba6.css?body=1&livereload=1494541834725&livereload=1494541815468" for ::1 at 2017-05-11 15:30:34 -0700
+Started GET "/assets/application.self-e9612f4d123543dd5eeb0163e1d38c1fea7eaea65f40b9606909e330835d2ba6.css?body=1&livereload=1494541834726&livereload=1494541815468" for ::1 at 2017-05-11 15:30:34 -0700
+Started GET "/assets/application.self-e9612f4d123543dd5eeb0163e1d38c1fea7eaea65f40b9606909e330835d2ba6.css?body=1&livereload=1494541846237&livereload=1494541815468" for ::1 at 2017-05-11 15:30:46 -0700
+Started GET "/assets/application.self-e9612f4d123543dd5eeb0163e1d38c1fea7eaea65f40b9606909e330835d2ba6.css?body=1&livereload=1494541846238&livereload=1494541815468" for ::1 at 2017-05-11 15:30:46 -0700
+Started GET "/assets/application.self-e9612f4d123543dd5eeb0163e1d38c1fea7eaea65f40b9606909e330835d2ba6.css?body=1&livereload=1494541853227&livereload=1494541815468" for ::1 at 2017-05-11 15:30:53 -0700
+Started GET "/assets/application.self-e9612f4d123543dd5eeb0163e1d38c1fea7eaea65f40b9606909e330835d2ba6.css?body=1&livereload=1494541853228&livereload=1494541815468" for ::1 at 2017-05-11 15:30:53 -0700
+Started GET "/assets/application.self-e9612f4d123543dd5eeb0163e1d38c1fea7eaea65f40b9606909e330835d2ba6.css?body=1&livereload=1494541860195&livereload=1494541815468" for ::1 at 2017-05-11 15:31:00 -0700
+Started GET "/assets/application.self-e9612f4d123543dd5eeb0163e1d38c1fea7eaea65f40b9606909e330835d2ba6.css?body=1&livereload=1494541860195&livereload=1494541815468&livereload=1494541860195" for ::1 at 2017-05-11 15:31:00 -0700
+Started GET "/assets/application.self-e9612f4d123543dd5eeb0163e1d38c1fea7eaea65f40b9606909e330835d2ba6.css?body=1&livereload=1494541868110&livereload=1494541815468&livereload=1494541860195" for ::1 at 2017-05-11 15:31:08 -0700
+Started GET "/assets/application.self-e9612f4d123543dd5eeb0163e1d38c1fea7eaea65f40b9606909e330835d2ba6.css?body=1&livereload=1494541868112&livereload=1494541815468&livereload=1494541860195" for ::1 at 2017-05-11 15:31:08 -0700
+Started GET "/assets/application.self-e9612f4d123543dd5eeb0163e1d38c1fea7eaea65f40b9606909e330835d2ba6.css?body=1&livereload=1494541877494&livereload=1494541815468&livereload=1494541860195" for ::1 at 2017-05-11 15:31:17 -0700
+Started GET "/assets/application.self-e9612f4d123543dd5eeb0163e1d38c1fea7eaea65f40b9606909e330835d2ba6.css?body=1&livereload=1494541877495&livereload=1494541815468&livereload=1494541860195" for ::1 at 2017-05-11 15:31:17 -0700
+Started GET "/assets/application.self-e9612f4d123543dd5eeb0163e1d38c1fea7eaea65f40b9606909e330835d2ba6.css?body=1&livereload=1494541890333&livereload=1494541815468&livereload=1494541860195" for ::1 at 2017-05-11 15:31:30 -0700
+Started GET "/assets/application.self-e9612f4d123543dd5eeb0163e1d38c1fea7eaea65f40b9606909e330835d2ba6.css?body=1&livereload=1494541890334&livereload=1494541815468&livereload=1494541860195" for ::1 at 2017-05-11 15:31:30 -0700
+Started GET "/assets/application.self-e9612f4d123543dd5eeb0163e1d38c1fea7eaea65f40b9606909e330835d2ba6.css?body=1&livereload=1494541895824&livereload=1494541815468&livereload=1494541860195" for ::1 at 2017-05-11 15:31:35 -0700
+Started GET "/assets/application.self-e9612f4d123543dd5eeb0163e1d38c1fea7eaea65f40b9606909e330835d2ba6.css?body=1&livereload=1494541895825&livereload=1494541815468&livereload=1494541860195" for ::1 at 2017-05-11 15:31:35 -0700
+Started GET "/assets/application.self-e9612f4d123543dd5eeb0163e1d38c1fea7eaea65f40b9606909e330835d2ba6.css?body=1&livereload=1494541926256&livereload=1494541815468&livereload=1494541860195" for ::1 at 2017-05-11 15:32:06 -0700
+Started GET "/assets/application.self-e9612f4d123543dd5eeb0163e1d38c1fea7eaea65f40b9606909e330835d2ba6.css?body=1&livereload=1494541926258&livereload=1494541815468&livereload=1494541860195" for ::1 at 2017-05-11 15:32:06 -0700
+Started GET "/assets/application.self-e9612f4d123543dd5eeb0163e1d38c1fea7eaea65f40b9606909e330835d2ba6.css?body=1&livereload=1494541933900&livereload=1494541815468&livereload=1494541860195" for ::1 at 2017-05-11 15:32:13 -0700
+Started GET "/assets/application.self-e9612f4d123543dd5eeb0163e1d38c1fea7eaea65f40b9606909e330835d2ba6.css?body=1&livereload=1494541933901&livereload=1494541815468&livereload=1494541860195" for ::1 at 2017-05-11 15:32:13 -0700
+Started GET "/assets/application.self-e9612f4d123543dd5eeb0163e1d38c1fea7eaea65f40b9606909e330835d2ba6.css?body=1&livereload=1494541939296&livereload=1494541815468&livereload=1494541860195" for ::1 at 2017-05-11 15:32:19 -0700
+Started GET "/assets/application.self-e9612f4d123543dd5eeb0163e1d38c1fea7eaea65f40b9606909e330835d2ba6.css?body=1&livereload=1494541939297&livereload=1494541815468&livereload=1494541860195" for ::1 at 2017-05-11 15:32:19 -0700
+Started GET "/assets/application.self-e9612f4d123543dd5eeb0163e1d38c1fea7eaea65f40b9606909e330835d2ba6.css?body=1&livereload=1494541995684&livereload=1494541815468&livereload=1494541860195" for ::1 at 2017-05-11 15:33:15 -0700
+Started GET "/assets/application.self-e9612f4d123543dd5eeb0163e1d38c1fea7eaea65f40b9606909e330835d2ba6.css?body=1&livereload=1494541995685&livereload=1494541815468&livereload=1494541860195" for ::1 at 2017-05-11 15:33:15 -0700
+Started GET "/assets/application.self-e9612f4d123543dd5eeb0163e1d38c1fea7eaea65f40b9606909e330835d2ba6.css?body=1&livereload=1494542002292&livereload=1494541815468&livereload=1494541860195" for ::1 at 2017-05-11 15:33:22 -0700
+Started GET "/assets/application.self-e9612f4d123543dd5eeb0163e1d38c1fea7eaea65f40b9606909e330835d2ba6.css?body=1&livereload=1494542002293&livereload=1494541815468&livereload=1494541860195" for ::1 at 2017-05-11 15:33:22 -0700
+Started GET "/assets/application.self-e9612f4d123543dd5eeb0163e1d38c1fea7eaea65f40b9606909e330835d2ba6.css?body=1&livereload=1494542008151&livereload=1494541815468&livereload=1494541860195" for ::1 at 2017-05-11 15:33:28 -0700
+Started GET "/assets/application.self-e9612f4d123543dd5eeb0163e1d38c1fea7eaea65f40b9606909e330835d2ba6.css?body=1&livereload=1494542008153&livereload=1494541815468&livereload=1494541860195" for ::1 at 2017-05-11 15:33:28 -0700
+Started GET "/assets/application.self-e9612f4d123543dd5eeb0163e1d38c1fea7eaea65f40b9606909e330835d2ba6.css?body=1&livereload=1494542014180&livereload=1494541815468&livereload=1494541860195" for ::1 at 2017-05-11 15:33:34 -0700
+Started GET "/assets/application.self-e9612f4d123543dd5eeb0163e1d38c1fea7eaea65f40b9606909e330835d2ba6.css?body=1&livereload=1494542014182&livereload=1494541815468&livereload=1494541860195" for ::1 at 2017-05-11 15:33:34 -0700
+Started GET "/assets/application.self-e9612f4d123543dd5eeb0163e1d38c1fea7eaea65f40b9606909e330835d2ba6.css?body=1&livereload=1494542028218&livereload=1494541815468&livereload=1494541860195" for ::1 at 2017-05-11 15:33:48 -0700
+Started GET "/assets/application.self-e9612f4d123543dd5eeb0163e1d38c1fea7eaea65f40b9606909e330835d2ba6.css?body=1&livereload=1494542028219&livereload=1494541815468&livereload=1494541860195" for ::1 at 2017-05-11 15:33:48 -0700
+Started GET "/assets/application.self-e9612f4d123543dd5eeb0163e1d38c1fea7eaea65f40b9606909e330835d2ba6.css?body=1&livereload=1494542039284&livereload=1494541815468&livereload=1494541860195" for ::1 at 2017-05-11 15:33:59 -0700
+Started GET "/assets/application.self-e9612f4d123543dd5eeb0163e1d38c1fea7eaea65f40b9606909e330835d2ba6.css?body=1&livereload=1494542039285&livereload=1494541815468&livereload=1494541860195" for ::1 at 2017-05-11 15:33:59 -0700
+Started GET "/assets/application.self-e9612f4d123543dd5eeb0163e1d38c1fea7eaea65f40b9606909e330835d2ba6.css?body=1&livereload=1494542041790&livereload=1494541815468&livereload=1494541860195" for ::1 at 2017-05-11 15:34:01 -0700
+Started GET "/assets/application.self-e9612f4d123543dd5eeb0163e1d38c1fea7eaea65f40b9606909e330835d2ba6.css?body=1&livereload=1494542041791&livereload=1494541815468&livereload=1494541860195" for ::1 at 2017-05-11 15:34:01 -0700
+Started GET "/assets/application.self-e9612f4d123543dd5eeb0163e1d38c1fea7eaea65f40b9606909e330835d2ba6.css?body=1&livereload=1494542065791&livereload=1494541815468&livereload=1494541860195" for ::1 at 2017-05-11 15:34:25 -0700
+Started GET "/assets/application.self-e9612f4d123543dd5eeb0163e1d38c1fea7eaea65f40b9606909e330835d2ba6.css?body=1&livereload=1494542065792&livereload=1494541815468&livereload=1494541860195" for ::1 at 2017-05-11 15:34:25 -0700
+Started GET "/assets/application.self-e9612f4d123543dd5eeb0163e1d38c1fea7eaea65f40b9606909e330835d2ba6.css?body=1&livereload=1494542067368&livereload=1494541815468&livereload=1494541860195" for ::1 at 2017-05-11 15:34:27 -0700
+Started GET "/assets/application.self-e9612f4d123543dd5eeb0163e1d38c1fea7eaea65f40b9606909e330835d2ba6.css?body=1&livereload=1494542067369&livereload=1494541815468&livereload=1494541860195" for ::1 at 2017-05-11 15:34:27 -0700
+Started GET "/assets/application.self-e9612f4d123543dd5eeb0163e1d38c1fea7eaea65f40b9606909e330835d2ba6.css?body=1&livereload=1494542069601&livereload=1494541815468&livereload=1494541860195" for ::1 at 2017-05-11 15:34:29 -0700
+Started GET "/assets/application.self-e9612f4d123543dd5eeb0163e1d38c1fea7eaea65f40b9606909e330835d2ba6.css?body=1&livereload=1494542069602&livereload=1494541815468&livereload=1494541860195" for ::1 at 2017-05-11 15:34:29 -0700
+Started GET "/assets/application.self-e9612f4d123543dd5eeb0163e1d38c1fea7eaea65f40b9606909e330835d2ba6.css?body=1&livereload=1494542072024&livereload=1494541815468&livereload=1494541860195" for ::1 at 2017-05-11 15:34:32 -0700
+Started GET "/assets/application.self-e9612f4d123543dd5eeb0163e1d38c1fea7eaea65f40b9606909e330835d2ba6.css?body=1&livereload=1494542072025&livereload=1494541815468&livereload=1494541860195" for ::1 at 2017-05-11 15:34:32 -0700
+Started GET "/assets/application.self-e9612f4d123543dd5eeb0163e1d38c1fea7eaea65f40b9606909e330835d2ba6.css?body=1&livereload=1494542096223&livereload=1494541815468&livereload=1494541860195" for ::1 at 2017-05-11 15:34:56 -0700
+Started GET "/assets/application.self-e9612f4d123543dd5eeb0163e1d38c1fea7eaea65f40b9606909e330835d2ba6.css?body=1&livereload=1494542096224&livereload=1494541815468&livereload=1494541860195" for ::1 at 2017-05-11 15:34:56 -0700
+Started GET "/assets/application.self-e9612f4d123543dd5eeb0163e1d38c1fea7eaea65f40b9606909e330835d2ba6.css?body=1&livereload=1494542112783&livereload=1494541815468&livereload=1494541860195" for ::1 at 2017-05-11 15:35:12 -0700
+Started GET "/assets/application.self-e9612f4d123543dd5eeb0163e1d38c1fea7eaea65f40b9606909e330835d2ba6.css?body=1&livereload=1494542112784&livereload=1494541815468&livereload=1494541860195" for ::1 at 2017-05-11 15:35:12 -0700
+Started GET "/assets/application.self-e9612f4d123543dd5eeb0163e1d38c1fea7eaea65f40b9606909e330835d2ba6.css?body=1&livereload=1494542132392&livereload=1494541815468&livereload=1494541860195" for ::1 at 2017-05-11 15:35:32 -0700
+Started GET "/assets/application.self-e9612f4d123543dd5eeb0163e1d38c1fea7eaea65f40b9606909e330835d2ba6.css?body=1&livereload=1494542132393&livereload=1494541815468&livereload=1494541860195" for ::1 at 2017-05-11 15:35:32 -0700
+Started GET "/assets/application.self-e9612f4d123543dd5eeb0163e1d38c1fea7eaea65f40b9606909e330835d2ba6.css?body=1&livereload=1494542159701&livereload=1494541815468&livereload=1494541860195" for ::1 at 2017-05-11 15:35:59 -0700
+Started GET "/assets/application.self-e9612f4d123543dd5eeb0163e1d38c1fea7eaea65f40b9606909e330835d2ba6.css?body=1&livereload=1494542159702&livereload=1494541815468&livereload=1494541860195" for ::1 at 2017-05-11 15:35:59 -0700
+Started GET "/assets/application.self-e9612f4d123543dd5eeb0163e1d38c1fea7eaea65f40b9606909e330835d2ba6.css?body=1&livereload=1494542171032&livereload=1494541815468&livereload=1494541860195" for ::1 at 2017-05-11 15:36:11 -0700
+Started GET "/assets/application.self-e9612f4d123543dd5eeb0163e1d38c1fea7eaea65f40b9606909e330835d2ba6.css?body=1&livereload=1494542171033&livereload=1494541815468&livereload=1494541860195" for ::1 at 2017-05-11 15:36:11 -0700
+Started GET "/assets/application.self-e9612f4d123543dd5eeb0163e1d38c1fea7eaea65f40b9606909e330835d2ba6.css?body=1&livereload=1494542177913&livereload=1494541815468&livereload=1494541860195" for ::1 at 2017-05-11 15:36:17 -0700
+Started GET "/assets/application.self-e9612f4d123543dd5eeb0163e1d38c1fea7eaea65f40b9606909e330835d2ba6.css?body=1&livereload=1494542177913&livereload=1494541815468&livereload=1494541860195&livereload=1494542177913" for ::1 at 2017-05-11 15:36:17 -0700
+Started GET "/assets/application.self-e9612f4d123543dd5eeb0163e1d38c1fea7eaea65f40b9606909e330835d2ba6.css?body=1&livereload=1494542184434&livereload=1494541815468&livereload=1494541860195&livereload=1494542177913" for ::1 at 2017-05-11 15:36:24 -0700
+Started GET "/assets/application.self-e9612f4d123543dd5eeb0163e1d38c1fea7eaea65f40b9606909e330835d2ba6.css?body=1&livereload=1494542184435&livereload=1494541815468&livereload=1494541860195&livereload=1494542177913" for ::1 at 2017-05-11 15:36:24 -0700
+Started GET "/assets/application.self-e9612f4d123543dd5eeb0163e1d38c1fea7eaea65f40b9606909e330835d2ba6.css?body=1&livereload=1494542207446&livereload=1494541815468&livereload=1494541860195&livereload=1494542177913" for ::1 at 2017-05-11 15:36:47 -0700
+Started GET "/assets/application.self-e9612f4d123543dd5eeb0163e1d38c1fea7eaea65f40b9606909e330835d2ba6.css?body=1&livereload=1494542207447&livereload=1494541815468&livereload=1494541860195&livereload=1494542177913" for ::1 at 2017-05-11 15:36:47 -0700
