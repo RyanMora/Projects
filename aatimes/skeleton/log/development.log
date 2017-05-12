@@ -2565,3 +2565,19 @@ Completed 200 OK in 31ms (Views: 29.0ms | ActiveRecord: 0.0ms)
 
 Started GET "/assets/AA_Times_Logo.png" for ::1 at 2017-05-11 17:18:41 -0700
 Started GET "/assets/new_office.jpg" for ::1 at 2017-05-11 17:18:41 -0700
+Started GET "/" for ::1 at 2017-05-11 17:19:35 -0700
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.6ms)
+  Rendered shared/_main_nav.html.erb (3.1ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_sidebar.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (1.9ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 30ms (Views: 28.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/AA_Times_Logo.png" for ::1 at 2017-05-11 17:19:35 -0700
+Started GET "/assets/new_office.jpg" for ::1 at 2017-05-11 17:19:35 -0700
