@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-between;
   padding: 10px 0;
+  border-bottom: 1px solid $light-gray;
 }
 
 .left-nav > ul,
@@ -16,6 +17,9 @@
   text-transform: uppercase;
   padding: 7px 9px;
   margin-left: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
 }
 
 .right-nav > ul > li {
@@ -24,7 +28,9 @@
 }
 
 .right-nav > ul > li:last-of-type {
-
+  position: relative;
+  padding: 7px 9px;
+  transition: background-color 0.3s;
 }
 
 .left-nav > ul > li:hover,
@@ -39,4 +45,18 @@
 
 .right-nav i {
   font-size: 16px;
+}
+
+@media all and (max-width: 1000px) {
+  .right-nav button {
+    display: none;
+  }
+  
+  .left-nav > ul > li {
+    margin: 0;
+  }
+
+  .main-nav {
+    padding: 20px 0;
+  }
 }
