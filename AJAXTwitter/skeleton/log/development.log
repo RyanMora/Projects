@@ -5535,3 +5535,64 @@ Started GET "/assets/jquery.serializejson.self.js?body=1" for 127.0.0.1 at 2017-
 
 
 Started GET "/assets/bundle.self.js?body=1" for 127.0.0.1 at 2017-05-15 12:40:01 -0700
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2017-05-15 12:43:52 -0700
+
+
+Started GET "/feed" for 127.0.0.1 at 2017-05-15 12:44:16 -0700
+Processing by FeedsController#show as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."session_token" = 'ysrTE-07_jP8EQpLoYIq7Q' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."session_token" = 'ysrTE-07_jP8EQpLoYIq7Q' LIMIT 1
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."session_token" = 'ysrTE-07_jP8EQpLoYIq7Q' LIMIT 1[0m
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users"
+  Rendered tweets/_form.html.erb (2.1ms)
+  Rendered feeds/show.html.erb within layouts/application (6.3ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."session_token" = 'ysrTE-07_jP8EQpLoYIq7Q' LIMIT 1[0m
+Completed 200 OK in 113ms (Views: 108.9ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2017-05-15 12:44:16 -0700
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2017-05-15 12:44:16 -0700
+
+
+Started GET "/assets/jquery.serializejson.self.js?body=1" for 127.0.0.1 at 2017-05-15 12:44:16 -0700
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2017-05-15 12:44:16 -0700
+
+
+Started GET "/assets/bundle.self.js?body=1" for 127.0.0.1 at 2017-05-15 12:44:16 -0700
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2017-05-15 12:44:16 -0700
+
+
+Started GET "/assets/bundle.js.map" for 127.0.0.1 at 2017-05-15 12:44:17 -0700
+
+
+Started POST "/tweets" for 127.0.0.1 at 2017-05-15 12:44:31 -0700
+Processing by TweetsController#create as JSON
+  Parameters: {"tweet"=>{"content"=>"tweeet\r\n", "mentioned_user_ids"=>["4", "7"]}}
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."session_token" = 'ysrTE-07_jP8EQpLoYIq7Q' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."session_token" = 'ysrTE-07_jP8EQpLoYIq7Q' LIMIT 1[0m
+  [1m[35mUser Load (0.8ms)[0m  SELECT "users".* FROM "users"  WHERE "users"."id" IN (4, 7)
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mMention Exists (0.5ms)[0m  SELECT  1 AS one FROM "mentions"  WHERE ("mentions"."user_id" = 4 AND "mentions"."tweet_id" IS NULL) LIMIT 1
+  [1m[36mMention Exists (0.5ms)[0m  [1mSELECT  1 AS one FROM "mentions"  WHERE ("mentions"."user_id" = 7 AND "mentions"."tweet_id" IS NULL) LIMIT 1[0m
+  [1m[35mUser Exists (0.5ms)[0m  SELECT  1 AS one FROM "users"  WHERE ("users"."username" = 'markov' AND "users"."id" != 4) LIMIT 1
+  [1m[36mUser Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE ("users"."username" = 'sally' AND "users"."id" != 7) LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "tweets" ("content", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4) RETURNING "id"  [["content", "tweeet\r\n"], ["created_at", "2017-05-15 19:44:32.581994"], ["updated_at", "2017-05-15 19:44:32.581994"], ["user_id", 8]]
+  [1m[36mMention Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM "mentions"  WHERE ("mentions"."user_id" = 4 AND "mentions"."tweet_id" = 286) LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "mentions" ("created_at", "tweet_id", "updated_at", "user_id") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", "2017-05-15 19:44:32.584538"], ["tweet_id", 286], ["updated_at", "2017-05-15 19:44:32.584538"], ["user_id", 4]]
+  [1m[36mMention Exists (0.5ms)[0m  [1mSELECT  1 AS one FROM "mentions"  WHERE ("mentions"."user_id" = 7 AND "mentions"."tweet_id" = 286) LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "mentions" ("created_at", "tweet_id", "updated_at", "user_id") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", "2017-05-15 19:44:32.587016"], ["tweet_id", 286], ["updated_at", "2017-05-15 19:44:32.587016"], ["user_id", 7]]
+  [1m[36mMention Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM "mentions"  WHERE ("mentions"."user_id" = 4 AND "mentions"."id" != 6 AND "mentions"."tweet_id" = 286) LIMIT 1[0m
+  [1m[35mMention Exists (0.5ms)[0m  SELECT  1 AS one FROM "mentions"  WHERE ("mentions"."user_id" = 7 AND "mentions"."id" != 7 AND "mentions"."tweet_id" = 286) LIMIT 1
+  [1m[36m (1.4ms)[0m  [1mCOMMIT[0m
+  [1m[35mMention Load (0.7ms)[0m  SELECT "mentions".* FROM "mentions"  WHERE "mentions"."tweet_id" = $1  [["tweet_id", 286]]
+  Rendered tweets/_tweet.json.jbuilder (2.3ms)
+  Rendered tweets/show.json.jbuilder (3.5ms)
+Completed 200 OK in 1036ms (Views: 6.8ms | ActiveRecord: 8.5ms)

@@ -184,12 +184,12 @@ module.exports = APIUtil;
 /***/ (function(module, exports, __webpack_require__) {
 
 const FollowToggle = __webpack_require__(0);
-const InfiniteTweets = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./infinite_tweets\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+// const InfiniteTweets = require('./infinite_tweets');
 const UsersSearch = __webpack_require__(3);
 const TweetCompose = __webpack_require__(4);
 
 $(function(){
-  $("div.infinite-tweets").each( (i, tweet) => new InfiniteTweets(tweet));
+  // $("div.infinite-tweets").each( (i, tweet) => new InfiniteTweets(tweet));
   $("form.tweet-compose").each( (i, form) => new TweetCompose(form) );
   $("nav.users-search").each( (i, search) => new UsersSearch(search) );
   $("button.follow-toggle").each( (i, btn) => new FollowToggle(btn, {}) );
