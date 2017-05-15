@@ -328,6 +328,7 @@ class InfiniteTweets {
 
     this.$el.on("click", ".fetch-more", this.fetchTweets.bind(this));
     this.$el.on("insert-tweet", this.insertTweet.bind(this));
+    
   }
 
   fetchTweets(event) {
