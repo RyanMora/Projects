@@ -63,14 +63,187 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 0);
+/******/ 	return __webpack_require__(__webpack_require__.s = 2);
 /******/ })
 /************************************************************************/
 /******/ ([
 /* 0 */
+/***/ (function(module, exports, __webpack_require__) {
+
+const APIUtil = __webpack_require__(1);
+
+class FollowToggle {
+  constructor(el, options) {
+    this.$el = $(el);
+    this.userId = this.$el.data("user-id") || options.userId;
+    this.followState = (this.$el.data("initial-follow-state") || options.followState);
+    this.render();
+
+    this.$el.on("click", this.handleClick.bind(this));
+  }
+
+  handleClick(event){
+    const followToggle = this;
+
+    event.preventDefault();
+
+    if(this.followState === "followed"){
+      this.followState = "unfollowing";
+      this.render();
+      APIUtil.unfollowUser(this.userId).then(()=>{
+        followToggle.followState = "unfollowed";
+        followToggle.render();
+      });
+    }else if(this.followState === "unfollowed"){
+      this.followState = "following";
+      this.render();
+      APIUtil.followUser(this.userId).then(()=>{
+        followToggle.followState = "followed";
+        followToggle.render();
+      });
+    }
+  }
+
+  render(){
+    switch(this.followState){
+      case "followed":
+        this.$el.prop("disabled", false);
+        this.$el.html("Unfollow!");
+        break;
+      case "unfollowed":
+        this.$el.prop("disabled", false);
+        this.$el.html("Follow!");
+        break;
+      case "following":
+        this.$el.prop("disabled", true);
+        this.$el.html("Following...");
+        break;
+      case "unfollowing":
+        this.$el.prop("disabled", true);
+        this.$el.html("Unfollowing...");
+        break;
+    }
+  }
+
+}
+
+module.exports = FollowToggle;
+
+
+/***/ }),
+/* 1 */
 /***/ (function(module, exports) {
 
-throw new Error("Module parse failed: /Users/ryanmora/Desktop/AppAcademy/projects/AJAXTwitter/skeleton/frontend/twitter.js Unexpected token (3:12)\nYou may need an appropriate loader to handle this file type.\n| const FollowToggle = require('./follow_toggle');\n| \n| $(function()){\n|   $(\"button.follow_toggle\").each( (i, btn) => new FollowToggle(btn, {}) );\n| };");
+const APIUtil = {
+
+  followUser: id => APIUtil.changeFollowStatus(id, "POST"),
+
+  unfollowUser: id => APIUtil.changeFollowStatus(id, "DELETE"),
+
+  changeFollowStatus: (id, method) => (
+    $.ajax({
+      url: `/users/${id}/follow`,
+      dataType: "json",
+      method
+    })
+  ),
+
+  searchUsers: query => (
+    $.ajax({
+      url: "/users/search",
+      dataType: "json",
+      method: "GET",
+      data: { query }
+    })
+  ),
+
+  createTweet: data => (
+    $.ajax({
+      url: "/tweets",
+      method: "POST",
+      dataType: "json",
+      data
+    })
+  ),
+
+  fetchTweets: data => (
+    $.ajax({
+      url: "/feed",
+      method: "GET",
+      dataType: "json",
+      data
+    })
+  )
+};
+
+module.exports = APIUtil;
+
+
+/***/ }),
+/* 2 */
+/***/ (function(module, exports, __webpack_require__) {
+
+const FollowToggle = __webpack_require__(0);
+const UsersSearch = __webpack_require__(3);
+
+$(function(){
+  $("nav.users-search").each( (i, search) => new UsersSearch(search) );
+  $("button.follow-toggle").each( (i, btn) => new FollowToggle(btn, {}) );
+});
+
+
+/***/ }),
+/* 3 */
+/***/ (function(module, exports, __webpack_require__) {
+
+const APIUtil = __webpack_require__(1);
+
+const FollowToggle = __webpack_require__(0);
+
+class UsersSearch {
+  constructor(el){
+    this.$el = $(el);
+    this.$input = this.$el.find("input[name=username]");
+    this.$ul = this.$el.find(".users");
+
+    this.$input.on("input", this.handleInput.bind(this));
+  }
+
+  handleInput(event) {
+    if (this.$input.val() === ""){
+      this.renderResults([]);
+      return;
+    }
+    APIUtil.searchUsers(this.$input.val()).then(users => this.renderResults(users));
+  }
+
+  renderResults(users){
+    this.$ul.empty();
+
+    for(let i = 0; i < users.length; i++){
+      let user = users[i];
+
+      let $a = $("<a></a>");
+      $a.text(user.username);
+      $a.attr("href", `users/${user.id}`);
+
+      let $followToggle = $("<botton></button>");
+      new FollowToggle($followToggle, {
+        userId: user.id,
+        followState: user.followed ? "followed" : "unfollowed"
+      });
+
+      let $li = $("<li></li>");
+      $li.append($a);
+      $li.append($followToggle);
+
+      this.$ul.append($li);
+    }
+  }
+}
+
+module.exports = UsersSearch;
+
 
 /***/ })
 /******/ ]);
