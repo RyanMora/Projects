@@ -1,7 +1,7 @@
 AjaxTwitter::Application.routes.draw do
   resource :feed, only: [:show]
   resource :session, only: [:create, :destroy, :new]
-  resources :tweets, only: [:create]
+  resources :tweets
   resources :users, only: [:create, :new, :show] do
     get "search", on: :collection
 
