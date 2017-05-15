@@ -184,12 +184,12 @@ module.exports = APIUtil;
 /***/ (function(module, exports, __webpack_require__) {
 
 const FollowToggle = __webpack_require__(0);
-// const InfiniteTweets = require('./infinite_tweets');
+const InfiniteTweets = __webpack_require__(5);
 const UsersSearch = __webpack_require__(3);
 const TweetCompose = __webpack_require__(4);
 
 $(function(){
-  // $("div.infinite-tweets").each( (i, tweet) => new InfiniteTweets(tweet));
+  $("div.infinite-tweets").each( (i, tweet) => new InfiniteTweets(tweet));
   $("form.tweet-compose").each( (i, form) => new TweetCompose(form) );
   $("nav.users-search").each( (i, search) => new UsersSearch(search) );
   $("button.follow-toggle").each( (i, btn) => new FollowToggle(btn, {}) );
@@ -313,6 +313,63 @@ class TweetCompose {
 }
 
 module.exports = TweetCompose;
+
+
+/***/ }),
+/* 5 */
+/***/ (function(module, exports, __webpack_require__) {
+
+const APIUtil = __webpack_require__(1);
+
+class InfiniteTweets {
+  constructor(el){
+    this.$el = $(el);
+    this.lastCreatedAt = null;
+
+    this.$el.on("click", ".fetch-more", this.fetchTweets.bind(this));
+    this.$el.on("insert-tweet", this.insertTweet.bind(this));
+  }
+
+  fetchTweets(event) {
+    event.preventDefault();
+
+    const infiniteTweets = this;
+    const data = {};
+    if(this.lastCreatedAt) data.max_created_at = this.lastCreatedAt;
+
+    APIUtil.fetchTweets(data).then((data) =>{
+      infiniteTweets.insertTweets(data);
+
+      if(data.length < 20){
+        infiniteTweets.$el.find(".fetch-more").replaceWith("<b>No more tweets!</b>");
+      }
+
+      if(data.length > 0){
+        infiniteTweets.lastCreatedAt = data[data.length - 1].created_at;
+      }
+    });
+  }
+
+  insertTweet(event, data){
+    const tmpl = _.template(this.$el.find("script").html());
+    this.$el.find("ul.tweets").prepend(tmpl({
+      tweets: [data]
+    }));
+
+    if(!this.lastCreatedAt){
+      this.lastCreatedAt = data.created_at;
+    }
+  }
+
+  insertTweets(data){
+    const tmpl = _.template(this.$el.find("script").html());
+    this.$el.find("ul.tweets").append(tmpl({
+      tweets: data
+    }));
+  }
+}
+
+module.exports = InfiniteTweets;
 
 
 /***/ })
