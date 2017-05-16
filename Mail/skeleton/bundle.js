@@ -68,9 +68,64 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
+/***/ (function(module, exports, __webpack_require__) {
+
+let Router = __webpack_require__(1);
+
+let routes = {
+  compose: Compose,
+  inbox: Inbox,
+  sent: Sent
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  let content = document.querySelector(".content");
+  router = new Router(content, routes);
+  router.start();
+  window.location.hash = '#inbox';
+  let navItems = Array.from(document.querySelectorAll(".sidebar-nav li"));
+  navItems.forEach(navItem => {
+    navItem.addEventListener("click", () => {
+      let name = navItem.innerText.toLowerCase();
+      location.hash = name;
+    });
+  });
+});
+
+
+/***/ }),
+/* 1 */
 /***/ (function(module, exports) {
 
-console.log("It's working!");
+class Router {
+  constructor(node, routes){
+    this.node = node;
+    this.routes = routes;
+  }
+
+  start(){
+    this.render();
+    window.addEventListener("hashchange", () => {
+      this.render();
+    });
+  }
+
+  render(){
+    this.node.innerHTML = "";
+    let component = this.activeRoute();
+    if(component){
+      this.node.appendChild(component.render());
+    }
+  }
+
+  activeRoute(){
+    let hash = window.location.hash.substr(1);
+    let component = this.routes[hash];
+    return component;
+  }
+}
+
+module.exports = Router;
 
 
 /***/ })
