@@ -73,7 +73,7 @@
 let Router = __webpack_require__(1);
 let Compose = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./compose\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
 let Inbox = __webpack_require__(2);
-let Sent = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./sent\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+let Sent = __webpack_require__(4);
 
 let routes = {
   compose: Compose,
@@ -208,6 +208,35 @@ const MessageStore = {
 };
 
 module.exports = MessageStore;
+
+
+/***/ }),
+/* 4 */
+/***/ (function(module, exports, __webpack_require__) {
+
+const MessageStore = __webpack_require__(3);
+
+module.exports = {
+  renderMessage(message){
+    let messageEl = document.createElement("li");
+    messageEl.className = "message";
+    messageEl.innerHTML = `
+    <span class="from">To: ${message.to}</span>
+    <span class="subject">${message.subject}</span> -
+    <span class="body">${message.body}</span>
+    `;
+    return messageEl;
+  },
+  render(){
+    let container = document.createElement("ul");
+    container.className = "messages";
+    let messages = MessageStore.getSentMessages();
+    messages.forEach(message => {
+      container.appendChild(this.renderMessage(message));
+    });
+    return container
+  }
+};
 
 
 /***/ })
