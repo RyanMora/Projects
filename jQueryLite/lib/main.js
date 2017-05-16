@@ -4,7 +4,7 @@ const _docReadyCallbacks = [];
 let _docReady = false;
 
 window.$l = arg => {
-  switch (typeof(arg)) {
+  switch(typeof(arg)){
     case "function":
       return registerDocReadyCallback(arg);
     case "string":
@@ -23,7 +23,7 @@ $l.extend = (base, ...otherObjs) => {
     }
   });
   return base;
-}
+};
 
 $l.ajax = options => {
   const request = new XMLHttpRequest();
@@ -33,20 +33,22 @@ $l.ajax = options => {
     url: "",
     success: () => {},
     error: () => {},
-    data: {}
+    data: {},
   };
   options = $l.extend(defaults, options);
   options.method = options.method.toUpperCase();
 
-  if(options.method === "GET"){
+  if (options.method === "GET"){
+    //data is query string for get
     options.url += "?" + toQueryString(options.data);
   }
 
   request.open(options.method, options.url, true);
   request.onload = e => {
-    if(request.status === 200){
+    //NB: Triggered when request.readyState === XMLHttpRequest.DONE ===  4
+    if (request.status === 200) {
       options.success(request.response);
-    }else{
+    } else {
       options.error(request.response);
     }
   };
@@ -54,20 +56,21 @@ $l.ajax = options => {
   request.send(JSON.stringify(options.data));
 };
 
+//helper methods
 toQueryString = obj => {
   let result = "";
   for(let prop in obj){
-    if(obj.hasOwnProperty(prop)){
+    if (obj.hasOwnProperty(prop)){
       result += prop + "=" + obj[prop] + "&";
     }
   }
-  return result.substring(0, result.length-1);
+  return result.substring(0, result.length - 1);
 };
 
 registerDocReadyCallback = func => {
   if(!_docReady){
     _docReadyCallbacks.push(func);
-  }else{
+  } else {
     func();
   }
 };
@@ -75,10 +78,10 @@ registerDocReadyCallback = func => {
 getNodesFromDom = selector => {
   const nodes = document.querySelectorAll(selector);
   const nodes_array = Array.from(nodes);
-  return new DomNodeCollention(nodes_array);
+  return new DomNodeCollection(nodes_array);
 };
 
 document.addEventListener('DOMContentLoaded', () => {
   _docReady = true;
-  _docReadyCallbacks.forEach( func => func());
+  _docReadyCallbacks.forEach( func => func() );
 });
