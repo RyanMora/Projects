@@ -7140,3 +7140,74 @@ Processing by FeedsController#show as JSON
   Rendered tweets/_tweet.json.jbuilder (3.5ms)
   Rendered feeds/show.json.jbuilder (28.7ms)
 Completed 200 OK in 35ms (Views: 26.5ms | ActiveRecord: 6.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-15 13:22:31 -0700
+
+
+Started GET "/feed" for 127.0.0.1 at 2017-05-15 13:22:31 -0700
+Processing by FeedsController#show as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."session_token" = 'bexv1DoGKwLzrXOL_L9_NQ' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."session_token" = 'bexv1DoGKwLzrXOL_L9_NQ' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."session_token" = 'bexv1DoGKwLzrXOL_L9_NQ' LIMIT 1
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered tweets/_form.html.erb (1.2ms)
+  Rendered feeds/show.html.erb within layouts/application (2.9ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."session_token" = 'bexv1DoGKwLzrXOL_L9_NQ' LIMIT 1
+Completed 200 OK in 39ms (Views: 35.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2017-05-15 13:22:32 -0700
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2017-05-15 13:22:32 -0700
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2017-05-15 13:22:32 -0700
+
+
+Started GET "/assets/jquery.serializejson.self.js?body=1" for 127.0.0.1 at 2017-05-15 13:22:32 -0700
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2017-05-15 13:22:32 -0700
+
+
+Started GET "/assets/bundle.self.js?body=1" for 127.0.0.1 at 2017-05-15 13:22:32 -0700
+
+
+Started GET "/assets/bundle.js.map" for 127.0.0.1 at 2017-05-15 13:22:32 -0700
+
+
+Started DELETE "/session" for 127.0.0.1 at 2017-05-15 13:22:33 -0700
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"DXscwdUKseC3ICOW0R8SazPOjk8KQCIzKiPKjim4ucQ="}
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."session_token" = 'bexv1DoGKwLzrXOL_L9_NQ' LIMIT 1[0m
+Redirected to http://localhost:3000/session/new
+Completed 302 Found in 5ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/session/new" for 127.0.0.1 at 2017-05-15 13:22:33 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 38ms (Views: 37.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2017-05-15 13:22:33 -0700
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2017-05-15 13:22:33 -0700
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2017-05-15 13:22:33 -0700
+
+
+Started GET "/assets/jquery.serializejson.self.js?body=1" for 127.0.0.1 at 2017-05-15 13:22:33 -0700
+
+
+Started GET "/assets/bundle.self.js?body=1" for 127.0.0.1 at 2017-05-15 13:22:33 -0700
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2017-05-15 13:22:33 -0700
+
+
+Started GET "/assets/bundle.js.map" for 127.0.0.1 at 2017-05-15 13:22:33 -0700
