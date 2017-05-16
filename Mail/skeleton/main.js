@@ -1,4 +1,7 @@
 let Router = require('./router');
+let Compose = require('./compose');
+let Inbox = require('./inbox');
+let Sent = require('./sent');
 
 let routes = {
   compose: Compose,
