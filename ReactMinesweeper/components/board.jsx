@@ -1,14 +1,14 @@
 import Tile from './tile';
 import React from 'react';
 
-class Board extends React.Component {
+class Board extends React.Component{
   constructor(props){
     super(props);
     this.renderRows = this.renderRows.bind(this);
     this.renderTiles = this.renderTiles.bind(this);
   }
 
-  render(){
+  render() {
     const board = this.props.board;
     const that = this;
     return(
@@ -18,7 +18,7 @@ class Board extends React.Component {
     );
   }
 
-  renderRows(){
+  renderRows() {
     const board = this.props.board;
     return board.grid.map( (row, i) => {
       return (
@@ -32,7 +32,7 @@ class Board extends React.Component {
   renderTiles(row, i){
     const board = this.props.board;
     return row.map( (tile, j) => {
-      return(
+      return (
         <Tile
           tile={tile}
           updateGame={this.props.updateGame}
@@ -40,6 +40,7 @@ class Board extends React.Component {
       );
     });
   }
+
 }
 
 export default Board;

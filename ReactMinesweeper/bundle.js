@@ -22048,13 +22048,13 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = __webpack_require__(82);
-
-var _react2 = _interopRequireDefault(_react);
-
 var _board = __webpack_require__(183);
 
 var _board2 = _interopRequireDefault(_board);
+
+var _react = __webpack_require__(82);
+
+var _react2 = _interopRequireDefault(_react);
 
 var _minesweeper = __webpack_require__(184);
 
@@ -22080,6 +22080,7 @@ var Game = function (_React$Component) {
 
     var board = new Minesweeper.Board(9, 10);
     _this.state = { board: board };
+    _this.restartGame = _this.restartGame.bind(_this);
     _this.updateGame = _this.updateGame.bind(_this);
     return _this;
   }
@@ -22235,6 +22236,162 @@ exports.default = Board;
 "use strict";
 
 
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+var Tile = exports.Tile = function () {
+  function Tile(board, pos) {
+    _classCallCheck(this, Tile);
+
+    this.board = board;
+    this.pos = pos;
+    this.bombed = false;
+    this.explored = false;
+    this.flagged = false;
+  }
+
+  _createClass(Tile, [{
+    key: "adjacentBombCount",
+    value: function adjacentBombCount() {
+      var bombCount = 0;
+      this.neighbors().forEach(function (neighbor) {
+        if (neighbor.bombed) {
+          bombCount++;
+        }
+      });
+      return bombCount;
+    }
+  }, {
+    key: "explore",
+    value: function explore() {
+      if (this.flagged || this.explored) {
+        return this;
+      }
+
+      this.explored = true;
+      if (!this.bombed && this.adjacentBombCount() === 0) {
+        this.neighbors().forEach(function (tile) {
+          tile.explore();
+        });
+      }
+    }
+  }, {
+    key: "neighbors",
+    value: function neighbors() {
+      var _this = this;
+
+      var adjacentCoords = [];
+      Tile.DELTAS.forEach(function (delta) {
+        var newPos = [delta[0] + _this.pos[0], delta[1] + _this.pos[1]];
+        if (_this.board.onBoard(newPos)) {
+          adjacentCoords.push(newPos);
+        }
+      });
+
+      return adjacentCoords.map(function (coord) {
+        return _this.board.grid[coord[0]][coord[1]];
+      });
+    }
+  }, {
+    key: "plantBomb",
+    value: function plantBomb() {
+      this.bombed = true;
+    }
+  }, {
+    key: "toggleFlag",
+    value: function toggleFlag() {
+      if (!this.explored) {
+        this.flagged = !this.flagged;
+        return true;
+      }
+
+      return false;
+    }
+  }]);
+
+  return Tile;
+}();
+
+Tile.DELTAS = [[-1, -1], [-1, 0], [-1, 1], [0, -1], [0, 1], [1, -1], [1, 0], [1, 1]];
+
+var Board = exports.Board = function () {
+  function Board(gridSize, numBombs) {
+    _classCallCheck(this, Board);
+
+    this.gridSize = gridSize;
+    this.grid = [];
+    this.numBombs = numBombs;
+    this.generateBoard();
+    this.plantBombs();
+  }
+
+  _createClass(Board, [{
+    key: "generateBoard",
+    value: function generateBoard() {
+      for (var i = 0; i < this.gridSize; i++) {
+        this.grid.push([]);
+        for (var j = 0; j < this.gridSize; j++) {
+          var tile = new Tile(this, [i, j]);
+          this.grid[i].push(tile);
+        }
+      }
+    }
+  }, {
+    key: "onBoard",
+    value: function onBoard(pos) {
+      return pos[0] >= 0 && pos[0] < this.gridSize && pos[1] >= 0 && pos[1] < this.gridSize;
+    }
+  }, {
+    key: "plantBombs",
+    value: function plantBombs() {
+      var totalPlantedBombs = 0;
+      while (totalPlantedBombs < this.numBombs) {
+        var row = Math.floor(Math.random() * (this.gridSize - 1));
+        var col = Math.floor(Math.random() * (this.gridSize - 1));
+
+        var tile = this.grid[row][col];
+        if (!tile.bombed) {
+          tile.plantBomb();
+          totalPlantedBombs++;
+        }
+      }
+    }
+  }, {
+    key: "lost",
+    value: function lost() {
+      var lost = false;
+      this.grid.forEach(function (row) {
+        row.forEach(function (tile) {
+          if (tile.bombed && tile.explored) {
+            lost = true;
+          }
+        });
+      });
+      return lost;
+    }
+  }, {
+    key: "won",
+    value: function won() {
+      var won = true;
+      this.grid.forEach(function (row) {
+        row.forEach(function (tile) {
+          if (tile.flagged === tile.revealed || tile.flagged !== tile.bombed) {
+            won = false;
+          }
+        });
+      });
+      return won;
+    }
+  }]);
+
+  return Board;
+}();
+
 /***/ }),
 /* 185 */
 /***/ (function(module, exports, __webpack_require__) {
@@ -22268,7 +22425,7 @@ var Tile = function (_React$Component) {
 
     var _this = _possibleConstructorReturn(this, (Tile.__proto__ || Object.getPrototypeOf(Tile)).call(this, props));
 
-    _this.handeClick = _this.handleClick.bind(_this);
+    _this.handleClick = _this.handleClick.bind(_this);
     return _this;
   }
 
@@ -22292,7 +22449,7 @@ var Tile = function (_React$Component) {
         } else {
           klass = 'explored';
           count = tile.adjacentBombCount();
-          text = count > 0 ? '' + count : "";
+          text = count > 0 ? count + ' ' : "";
         }
       } else if (tile.flagged) {
         klass = 'flagged';
@@ -22300,7 +22457,6 @@ var Tile = function (_React$Component) {
       } else {
         klass = 'unexplored';
       }
-
       klass = 'tile ' + klass;
 
       return _react2.default.createElement(
