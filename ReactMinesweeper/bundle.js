@@ -22198,6 +22198,10 @@ exports.default = Board;
 "use strict";
 
 
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
 var _react = __webpack_require__(82);
@@ -22218,22 +22222,55 @@ var Tile = function (_React$Component) {
   function Tile(props) {
     _classCallCheck(this, Tile);
 
-    return _possibleConstructorReturn(this, (Tile.__proto__ || Object.getPrototypeOf(Tile)).call(this, props));
+    var _this = _possibleConstructorReturn(this, (Tile.__proto__ || Object.getPrototypeOf(Tile)).call(this, props));
+
+    _this.handeClick = _this.handleClick.bind(_this);
+    return _this;
   }
 
   _createClass(Tile, [{
+    key: 'handleClick',
+    value: function handleClick(e) {
+      var flagged = e.altKey ? true : false;
+      this.props.updateGame(this.props.tile, flagged);
+    }
+  }, {
     key: 'render',
     value: function render() {
+      var tile = this.props.tile;
+      var klass = void 0,
+          text = void 0,
+          count = void 0;
+      if (tile.explored) {
+        if (tile.bombed) {
+          klass = 'bombed';
+          text = '\u2622';
+        } else {
+          klass = 'explored';
+          count = tile.adjacentBombCount();
+          text = count > 0 ? '' + count : "";
+        }
+      } else if (tile.flagged) {
+        klass = 'flagged';
+        text = '\u2691';
+      } else {
+        klass = 'unexplored';
+      }
+
+      klass = 'tile ' + klass;
+
       return _react2.default.createElement(
         'div',
-        null,
-        'T'
+        { className: klass, onClick: this.handleClick },
+        text
       );
     }
   }]);
 
   return Tile;
 }(_react2.default.Component);
+
+exports.default = Tile;
 
 /***/ })
 /******/ ]);
