@@ -23198,6 +23198,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 var RECEIVE_TODOS = exports.RECEIVE_TODOS = "RECEIVE_TODOS";
 var RECEIVE_TODO = exports.RECEIVE_TODO = "RECEIVE_TODO";
+var REMOVE_TODO = exports.REMOVE_TODO = "REMOVE_TODO";
 
 var receiveTodos = exports.receiveTodos = function receiveTodos(todos) {
   return {
@@ -23209,6 +23210,13 @@ var receiveTodos = exports.receiveTodos = function receiveTodos(todos) {
 var receiveTodo = exports.receiveTodo = function receiveTodo(todo) {
   return {
     type: RECEIVE_TODO,
+    todo: todo
+  };
+};
+
+var removeTodo = exports.removeTodo = function removeTodo(todo) {
+  return {
+    type: REMOVE_TODO,
     todo: todo
   };
 };
