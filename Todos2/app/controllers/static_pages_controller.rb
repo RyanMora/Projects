@@ -1,5 +1,6 @@
 class StaticPagesController < ApplicationController
-  def root
+  before_action :redirect_if_not_logged_in
 
+  def root
   end
 end
