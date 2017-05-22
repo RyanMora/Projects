@@ -1,9 +1,13 @@
 import { combineReducers } from 'redux';
 
 import PokemonReducer from './pokemon_reducer';
+import PokemonDetailReducer from './pokemon_detail_reducer';
+import LoadingReducer from './loading_reducer';
+import ErrorsReducer from './errors_reducer';
 
-const RootReducer = combineReducers({
-  pokemon: PokemonReducer
+export default combineReducers({
+  pokemon: PokemonReducer,
+  pokemonDetail: PokemonDetailReducer,
+  loading: LoadingReducer,
+  errors: ErrorsReducer
 });
-
-export default RootReducer
