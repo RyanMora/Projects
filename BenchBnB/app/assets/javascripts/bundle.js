@@ -22536,10 +22536,15 @@ var _session_reducer = __webpack_require__(236);
 
 var _session_reducer2 = _interopRequireDefault(_session_reducer);
 
+var _benches_reducer = __webpack_require__(361);
+
+var _benches_reducer2 = _interopRequireDefault(_benches_reducer);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var RootReducer = (0, _redux.combineReducers)({
-  session: _session_reducer2.default
+  session: _session_reducer2.default,
+  benches: _benches_reducer2.default
 });
 
 exports.default = RootReducer;
@@ -30662,6 +30667,167 @@ var App = function App() {
 };
 
 exports.default = App;
+
+/***/ }),
+/* 360 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.createBench = exports.fetchBench = exports.fetchBenches = exports.createReview = exports.receiveReview = exports.receiveBench = exports.receiveBenches = exports.RECEIVE_REVIEW = exports.RECEIVE_BENCH = exports.RECEIVE_BENCHES = undefined;
+
+var _bench_api_util = __webpack_require__(362);
+
+var APIUtil = _interopRequireWildcard(_bench_api_util);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+
+var RECEIVE_BENCHES = exports.RECEIVE_BENCHES = 'RECEIVE_BENCHES';
+var RECEIVE_BENCH = exports.RECEIVE_BENCH = 'RECEIVE_BENCH';
+var RECEIVE_REVIEW = exports.RECEIVE_REVIEW = 'RECEIVE_REVIEW';
+
+var receiveBenches = exports.receiveBenches = function receiveBenches(benches) {
+  return {
+    type: RECEIVE_BENCHES,
+    benches: benches
+  };
+};
+
+var receiveBench = exports.receiveBench = function receiveBench(bench) {
+  return {
+    type: RECEIVE_BENCH,
+    bench: bench
+  };
+};
+
+var receiveReview = exports.receiveReview = function receiveReview(review) {
+  return {
+    type: RECEIVE_REVIEW,
+    review: review
+  };
+};
+
+var createReview = exports.createReview = function createReview(review) {
+  return function (dispatch) {
+    return APIUtil.createReview(review).then(function (review) {
+      return dispatch(receiveReview(review));
+    });
+  };
+};
+
+var fetchBenches = exports.fetchBenches = function fetchBenches(filters) {
+  return function (dispatch) {
+    return APIUtil.fetchBenches(filters).then(function (benches) {
+      return dispatch(receiveBenches(benches));
+    });
+  };
+};
+
+var fetchBench = exports.fetchBench = function fetchBench(id) {
+  return function (dispatch) {
+    return APIUtil.fetchBench(id).then(function (bench) {
+      return dispatch(receiveBench(bench));
+    });
+  };
+};
+
+var createBench = exports.createBench = function createBench(bench) {
+  return function (dispatch) {
+    return APIUtil.createBench(bench).then(function (bench) {
+      return dispatch(receiveBench(bench));
+    });
+  };
+};
+
+/***/ }),
+/* 361 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _merge = __webpack_require__(302);
+
+var _merge2 = _interopRequireDefault(_merge);
+
+var _bench_actions = __webpack_require__(360);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+var BenchesReducer = function BenchesReducer() {
+  var state = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+  var action = arguments[1];
+
+  Object.freeze(state);
+  var newState = (0, _merge2.default)({}, state);
+
+  switch (action.type) {
+    case _bench_actions.RECEIVE_BENCHES:
+      return action.benches;
+    case _bench_actions.RECEIVE_BENCH:
+      var newBench = _defineProperty({}, action.bench.id, action.bench);
+      return (0, _merge2.default)({}, state, newBench);
+    case _bench_actions.RECEIVE_REVIEW:
+      var review = action.review;
+      newState[review.bench_id].reviews.push(review);
+      return newState;
+    default:
+      return state;
+  }
+};
+
+exports.default = BenchesReducer;
+
+/***/ }),
+/* 362 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+var fetchBenches = exports.fetchBenches = function fetchBenches(data) {
+  return $.ajax({
+    method: 'GET',
+    url: 'api/benches',
+    data: data
+  });
+};
+
+var fetchBench = exports.fetchBench = function fetchBench(id) {
+  return $.ajax({
+    method: 'GET',
+    url: 'api/benches/' + id
+  });
+};
+
+var createReview = exports.createReview = function createReview(data) {
+  return $.ajax({
+    method: 'POST',
+    url: 'api/reviews',
+    data: data
+  });
+};
+
+var createBench = exports.createBench = function createBench(data) {
+  return $.ajax({
+    method: 'POST',
+    url: 'api/benches',
+    data: data
+  });
+};
 
 /***/ })
 /******/ ]);
