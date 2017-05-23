@@ -9538,18 +9538,25 @@ var _reactDom = __webpack_require__(80);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
-var _store = __webpack_require__(188);
-
-var _store2 = _interopRequireDefault(_store);
-
 var _root = __webpack_require__(320);
 
 var _root2 = _interopRequireDefault(_root);
 
+var _store = __webpack_require__(188);
+
+var _store2 = _interopRequireDefault(_store);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 document.addEventListener('DOMContentLoaded', function () {
-  var store = (0, _store2.default)();
+  var store = void 0;
+  if (window.currentUser) {
+    var preloadedState = { session: { currentUser: window.currentUser } };
+    store = (0, _store2.default)(preloadedState);
+    delete window.currentUser;
+  } else {
+    store = (0, _store2.default)();
+  }
   var root = document.getElementById('root');
   _reactDom2.default.render(_react2.default.createElement(_root2.default, { store: store }), root);
 });
@@ -23586,7 +23593,7 @@ module.exports = isFunction;
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.receiveErrors = exports.receiveCurrentUser = exports.signup = exports.logout = exports.login = exports.RECEIVE_ERRORS = exports.RECEIVE_CURRENT_USER = undefined;
+exports.logout = exports.login = exports.signup = exports.receiveErrors = exports.receiveCurrentUser = exports.RECEIVE_ERRORS = exports.RECEIVE_CURRENT_USER = undefined;
 
 var _session_api_util = __webpack_require__(237);
 
@@ -23596,6 +23603,30 @@ function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj;
 
 var RECEIVE_CURRENT_USER = exports.RECEIVE_CURRENT_USER = 'RECEIVE_CURRENT_USER';
 var RECEIVE_ERRORS = exports.RECEIVE_ERRORS = 'RECEIVE_ERRORS';
+
+var receiveCurrentUser = exports.receiveCurrentUser = function receiveCurrentUser(currentUser) {
+  return {
+    type: RECEIVE_CURRENT_USER,
+    currentUser: currentUser
+  };
+};
+
+var receiveErrors = exports.receiveErrors = function receiveErrors(errors) {
+  return {
+    type: RECEIVE_ERRORS,
+    errors: errors
+  };
+};
+
+var signup = exports.signup = function signup(user) {
+  return function (dispatch) {
+    return APIUtil.signup(user).then(function (user) {
+      return dispatch(receiveCurrentUser(user));
+    }, function (err) {
+      return dispatch(receiveErrors(err.responseJSON));
+    });
+  };
+};
 
 var login = exports.login = function login(user) {
   return function (dispatch) {
@@ -23612,30 +23643,6 @@ var logout = exports.logout = function logout() {
     return APIUtil.logout().then(function (user) {
       return dispatch(receiveCurrentUser(null));
     });
-  };
-};
-
-var signup = exports.signup = function signup(user) {
-  return function (dispatch) {
-    return APIUtil.signup(user).then(function (user) {
-      return dispatch(receiveCurrentUser(user));
-    }, function (err) {
-      return dispatch(receiveErrors(err.responseJSON));
-    });
-  };
-};
-
-var receiveCurrentUser = exports.receiveCurrentUser = function receiveCurrentUser(currentUser) {
-  return {
-    type: RECEIVE_CURRENT_USER,
-    currentUser: currentUser
-  };
-};
-
-var receiveErrors = exports.receiveErrors = function receiveErrors(errors) {
-  return {
-    type: RECEIVE_ERRORS,
-    errors: errors
   };
 };
 
@@ -24102,7 +24109,7 @@ exports.logout = exports.signup = exports.login = undefined;
 var _session_actions = __webpack_require__(220);
 
 var login = exports.login = function login(user) {
-  $.ajax({
+  return $.ajax({
     method: 'POST',
     url: '/api/session',
     data: user
@@ -24110,7 +24117,7 @@ var login = exports.login = function login(user) {
 };
 
 var signup = exports.signup = function signup(user) {
-  $.ajax({
+  return $.ajax({
     method: 'POST',
     url: '/api/user',
     data: user
@@ -24118,9 +24125,9 @@ var signup = exports.signup = function signup(user) {
 };
 
 var logout = exports.logout = function logout() {
-  $.ajax({
+  return $.ajax({
     method: 'DELETE',
-    url: 'api/session'
+    url: '/api/session'
   });
 };
 
@@ -27339,9 +27346,9 @@ var _reactRedux = __webpack_require__(330);
 
 var _reactRouterDom = __webpack_require__(343);
 
-var _App = __webpack_require__(321);
+var _app = __webpack_require__(359);
 
-var _App2 = _interopRequireDefault(_App);
+var _app2 = _interopRequireDefault(_app);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -27353,7 +27360,7 @@ var Root = function Root(_ref) {
     _react2.default.createElement(
       _reactRouterDom.HashRouter,
       null,
-      _react2.default.createElement(_App2.default, null)
+      _react2.default.createElement(_app2.default, null)
     )
   );
 };
@@ -27361,56 +27368,7 @@ var Root = function Root(_ref) {
 exports.default = Root;
 
 /***/ }),
-/* 321 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _react = __webpack_require__(81);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _reactRedux = __webpack_require__(330);
-
-var _reactRouterDom = __webpack_require__(343);
-
-var _greeting_container = __webpack_require__(355);
-
-var _greeting_container2 = _interopRequireDefault(_greeting_container);
-
-var _session_form_container = __webpack_require__(356);
-
-var _session_form_container2 = _interopRequireDefault(_session_form_container);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var App = function App() {
-  return _react2.default.createElement(
-    'div',
-    null,
-    _react2.default.createElement(
-      'header',
-      null,
-      _react2.default.createElement(
-        'h1',
-        null,
-        'Bench Bnb'
-      ),
-      _react2.default.createElement(_greeting_container2.default, null)
-    ),
-    _react2.default.createElement(_reactRouterDom.Route, { path: '/login', component: _session_form_container2.default }),
-    _react2.default.createElement(_reactRouterDom.Route, { path: '/signup', component: _session_form_container2.default })
-  );
-};
-
-exports.default = App;
-
-/***/ }),
+/* 321 */,
 /* 322 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -30596,6 +30554,114 @@ var SessionForm = function (_React$Component) {
 }(_react2.default.Component);
 
 exports.default = (0, _reactRouterDom.withRouter)(SessionForm);
+
+/***/ }),
+/* 358 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.ProtectedRoute = exports.AuthRoute = undefined;
+
+var _react = __webpack_require__(81);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactRedux = __webpack_require__(330);
+
+var _reactRouterDom = __webpack_require__(343);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var Auth = function Auth(_ref) {
+  var Component = _ref.component,
+      path = _ref.path,
+      loggedIn = _ref.loggedIn;
+  return _react2.default.createElement(_reactRouterDom.Route, { path: path, render: function render(props) {
+      return !loggedIn ? _react2.default.createElement(Component, props) : _react2.default.createElement(_reactRouterDom.Redirect, { to: '/' });
+    } });
+};
+
+var Protected = function Protected(_ref2) {
+  var Component = _ref2.component,
+      path = _ref2.path,
+      loggedIn = _ref2.loggedIn;
+  return _react2.default.createElement(_reactRouterDom.Route, { path: path, render: function render(props) {
+      return loggedIn ? _react2.default.createElement(Component, props) : _react2.default.createElement(_reactRouterDom.Redirect, { to: '/login' });
+    } });
+};
+
+var mapStateToProps = function mapStateToProps(state) {
+  return { loggedIn: Boolean(state.session.currentUser) };
+};
+
+var AuthRoute = exports.AuthRoute = (0, _reactRouterDom.withRouter)((0, _reactRedux.connect)(mapStateToProps, null)(Auth));
+
+var ProtectedRoute = exports.ProtectedRoute = (0, _reactRouterDom.withRouter)((0, _reactRedux.connect)(mapStateToProps, null)(Protected));
+
+/***/ }),
+/* 359 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(81);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactRedux = __webpack_require__(330);
+
+var _reactRouterDom = __webpack_require__(343);
+
+var _greeting_container = __webpack_require__(355);
+
+var _greeting_container2 = _interopRequireDefault(_greeting_container);
+
+var _session_form_container = __webpack_require__(356);
+
+var _session_form_container2 = _interopRequireDefault(_session_form_container);
+
+var _route_util = __webpack_require__(358);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var App = function App() {
+  return _react2.default.createElement(
+    'div',
+    null,
+    _react2.default.createElement(
+      'header',
+      null,
+      _react2.default.createElement(
+        _reactRouterDom.Link,
+        { to: '/', className: 'header-link' },
+        _react2.default.createElement(
+          'h1',
+          null,
+          'Bench BnB'
+        )
+      ),
+      _react2.default.createElement(_greeting_container2.default, null)
+    ),
+    _react2.default.createElement(
+      _reactRouterDom.Switch,
+      null,
+      _react2.default.createElement(_route_util.AuthRoute, { path: '/login', component: _session_form_container2.default }),
+      _react2.default.createElement(_route_util.AuthRoute, { path: '/signup', component: _session_form_container2.default })
+    )
+  );
+};
+
+exports.default = App;
 
 /***/ })
 /******/ ]);
