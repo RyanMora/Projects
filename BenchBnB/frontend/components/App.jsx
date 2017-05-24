@@ -10,6 +10,9 @@ import {
 
 import GreetingContainer from './greeting/greeting_container';
 import SessionFormContainer from './session_form/session_form_container';
+import SearchContainer from './search/search_container';
+import BenchShowContainer from './bench_show/bench_show_container';
+import BenchFormContainer from './bench_form/bench_form_container';
 import { AuthRoute, ProtectedRoute } from '../util/route_util';
 
 const App = () => (
@@ -23,6 +26,9 @@ const App = () => (
     <Switch>
       <AuthRoute path="/login" component={SessionFormContainer} />
       <AuthRoute path="/signup" component={SessionFormContainer} />
+      <ProtectedRoute path="/benches/new" component={BenchFormContainer} />
+      <Route path="/benches/:benchId" component={BenchShowContainer} />
+      <Route exact path="/" component={SearchContainer} />
     </Switch>
   </div>
 );
