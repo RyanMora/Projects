@@ -117,16 +117,17 @@ class DomNodeCollection {
     return new DomNodeCollection(childNodes);
   }
 
-  // parent() {
-  //   const parentNodes = [];
-  //
-  //   this.each({ parentNode } =>
-  //     parentNode.visited ? parentNodes.push(parentNode) : parentNode.visited = true;
-  //   )
-  //
-  //   parentNodes.forEach(node => node.visited = false)
-  //   return new DomNodeCollection(parentNodes);
-  // }
+  parent() {
+    const parentNodes = [];
+
+    this.each({ parentNode } =>
+      // we apply 'visited' property to prevent adding duplicate parents
+      parentNode.visited ? parentNodes.push(parentNode) : parentNode.visited = true;
+    )
+
+    parentNodes.forEach(node => node.visited = false)
+    return new DomNodeCollection(parentNodes);
+  }
 }
 
 module.exports = DomNodeCollection;

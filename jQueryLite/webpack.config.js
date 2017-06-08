@@ -1,4 +1,3 @@
-
 module.exports = {
   entry: "./lib/main.js",
   output: {
