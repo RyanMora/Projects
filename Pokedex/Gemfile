@@ -18,6 +18,7 @@ gem 'jquery-rails'
 gem 'jbuilder', '~> 2.0'
 # Random seed data generator
 gem 'faker'
+gem 'rails_12factor'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
@@ -47,4 +48,3 @@ end
 group :development, :test do
   gem 'launchy'
 end
-
